@@ -28,9 +28,9 @@
         <div class="utt-info p30">
             <div class="utti-top f28 cfff">
                 <span>我的可提现收益(元) <span class="font_family icon-gantanhao f28"></span></span>
-                <span id="user_see" class="font_family icon-biyan f32"></span>
+                <span id="user_see" class="font_family icon-biyan f32 icon-yanjing"></span>
             </div>
-            <p id="user_money" class="user-money fw7 f58 mb30 cfff ">88.88</p>
+            <p id="user_money" class="user-money fw7 f58 mb30 cfff">88.88</p>
             <div class="utt-bottom">
                 <p class="f28 cfff">累计已提现收益(元) <span class="font_family icon-gantanhao f28"></span></p>
                 <div class="f28 cfff uttb-b mt10">
@@ -62,8 +62,14 @@
     $(function () {
       FastClick.attach(document.body);
       $('#user_see').click(function () {
-        console.log(1)
         $(this).toggleClass('icon-yanjing')
+        if (!$(this).hasClass('icon-yanjing')) {
+          $('#user_money').html('****')
+          $('#user_out_money').html('****')
+        } else {
+          $('#user_money').html('88.88')
+          $('#user_out_money').html('8888')
+        }
       })
     })
 </script>
