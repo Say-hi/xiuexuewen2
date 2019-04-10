@@ -1,0 +1,1 @@
+.record-tab{display:flex;align-items:center;justify-content:flex-start}.need-left{position:relative;padding-left:.2rem}.need-left:before{position:absolute;top:50%;transform:translate(-.2rem,-50%);content:"";width:.08rem;background-color:#2ca2f2;border-radius:1rem;height:40%}.need-left .icon-gantanhao{color:#2ca2f2}
