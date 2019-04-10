@@ -1,5 +1,6 @@
 # Distribution directory
 dit/*.map
+**/**/.idea
 .idea
 src/.idea
 # Dependency directories
