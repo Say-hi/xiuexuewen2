@@ -9,10 +9,10 @@
     <!--重置css-->
     <link rel="stylesheet" href="../common/reset-fa7f67953c.css">
     <!--公共css-->
-    <link rel="stylesheet" href="../common/css/common-b41a692b5f.css">
+    <link rel="stylesheet" href="../common/css/common-e767f92d05.css">
     <link rel="stylesheet" href="../common/css/iconfont-be24dce2ca.css">
     <!--样式表-->
-    <link rel="stylesheet" href="../css/index-0e5f7418fd.css">
+    <link rel="stylesheet" href="../css/index-3082a53b6d.css">
     <!--rem-->
     <script src="../common/js/rem-97dae64c99.js"></script>
     <!--ftclick.js-->
@@ -46,6 +46,32 @@
     </div>
 </div>
 
+<div class="jilu p030 c444 f28 mt20 lh88 bgfff">
+    <span class="need-left fw7">我的提现记录</span>
+    <span class="font_family icon-xiangyou f28"></span>
+</div>
+
+<div class="bgfff pb30">
+    <div class="jilu p030 c444 f28 lh88 mt20 bgfff">
+        <span class="need-left fw7">今日收益(元) <span class="font_family icon-gantanhao fw7"></span></span>
+    </div>
+    <div id="today_in" class="f58 c444 fw7 p030">88.88</div>
+    <a href="https://c.jiangwenqiang.com">
+        <div class="f28 c999 p030 mt30">查看收益明细 <span class="font_family icon-xiangyou f28"></span></div>
+    </a>
+</div>
+
+
+<div class="bgfff pb30 mt30">
+    <div class="jilu p030 c444 f28 lh88 mt20 bgfff">
+        <span class="need-left fw7">待到账收益(元) <span class="font_family icon-gantanhao fw7"></span></span>
+    </div>
+    <div id="ready_in" class="f58 c444 fw7 p030">88.88</div>
+    <a href="https://c.jiangwenqiang.com">
+        <div class="f28 c999 p030 mt30">查看收益明细 <span class="font_family icon-xiangyou f28"></span></div>
+    </a>
+</div>
+
 <!--https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx58c58031bbfa9815&redirect_uri=https%3a%2f%2fc.jiangwenqiang.com/xiuxuewen2/dist/pages/index.html&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect-->
 
 
@@ -66,9 +92,13 @@
         if (!$(this).hasClass('icon-yanjing')) {
           $('#user_money').html('****')
           $('#user_out_money').html('****')
+          $('#today_in').html('****')
+          $('#ready_in').html('****')
         } else {
           $('#user_money').html('88.88')
           $('#user_out_money').html('8888')
+          $('#today_in').html('8888')
+          $('#ready_in').html('8888')
         }
       })
     })
