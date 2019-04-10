@@ -7,22 +7,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>资金管理</title>
     <!--重置css-->
-    <link rel="stylesheet" href="../common/reset-7872c28373.css">
+    <link rel="stylesheet" href="../common/reset-fa7f67953c.css">
     <!--公共css-->
-    <link rel="stylesheet" href="../common/css/common-1556c0b911.css">
+    <link rel="stylesheet" href="../common/css/common-db3eacd0fc.css">
+    <link rel="stylesheet" href="../common/css/iconfont-be24dce2ca.css">
     <!--样式表-->
-    <link rel="stylesheet" href="../css/index-93a94f6d9d.css">
+    <link rel="stylesheet" href="../css/index-0e5f7418fd.css">
     <!--rem-->
-    <script src="../common/js/rem-0a23aafa06.js"></script>
+    <script src="../common/js/rem-97dae64c99.js"></script>
     <!--ftclick.js-->
     <script src="../common/js/ftclick-b2b22cf87d.js"></script>
+
 
 </head>
 <body>
 <!--顶部卡片-->
-<div class="p2030">
-    <div class="bg">
-
+<div class="user-top">
+    <!--上部阴影-->
+    <div class="ut-top p2030 pr">
+        <div class="utt-info p30">
+            <div class="utti-top f28 cfff">
+                <span>我的可提现收益(元) <span class="font_family icon-gantanhao f28"></span></span>
+                <span id="user_see" class="font_family icon-biyan f32"></span>
+            </div>
+            <p id="user_money" class="user-money fw7 f58 mb30 cfff ">88.88</p>
+            <div class="utt-bottom">
+                <p class="f28 cfff">累计已提现收益(元) <span class="font_family icon-gantanhao f28"></span></p>
+                <div class="f28 cfff uttb-b">
+                    <span id="user_out_money" class="">8888.88</span>
+                    <span>收益明细<span class="font_family icon-fangxiang-you f28"></span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--下部白色-->
+    <div class="ut-bottom p30">
+        <div class="tac f34 cfff fw7 p20 tixian">提现</div>
     </div>
 </div>
 
@@ -41,38 +61,10 @@
     }
     $(function () {
       FastClick.attach(document.body);
+      $('#user_see').click(function () {
+        console.log(1)
+        $(this).toggleClass('icon-yanjing')
+      })
     })
-//    var unionid = getUrlParam('unionid')
-//    var id = getUrlParam('id')
-//    var openid = getUrlParam('openid')
-//    var nickname = getUrlParam('nickname')
-//    var avatar_url = getUrlParam('avatar_url')
-//    var mall_total_fee = getUrlParam('mall_total_fee').toFixed(2)
-//    var mall_put_money = getUrlParam('mall_put_money')
-//    var appid = 'wx58c58031bbfa9815';
-//    var appsecret = '8b39d41454922595b6d692736ea42287'
-//    $(document).ready(function () {
-//        $('.user-img').src(avatar_url)
-//        $('.user-name').html(nickname)
-//        $('.user-money').html(mall_total_fee)
-//      获取code
-//      $.ajax({
-//        type: 'GET',
-//        dataType: 'jsonp',
-//        url: `https://api.weixin.qq.com/sns/oauth2/access_token?appid=${appid}&secret=${appsecret}&code=${code}&grant_type=authorization_code`,
-//        success (res) {
-//          console.log(res.access_token)
-//          $.ajax({
-//            type: 'GET',
-//            url: `https://api.weixin.qq.com/sns/userinfo?access_token=ACCESS_TOKEN&openid=OPENID`,
-//            success (res2) {
-//              console.log(res2)
-//            }
-//          })
-//        }
-//      })
-
-
-//    })
 </script>
 

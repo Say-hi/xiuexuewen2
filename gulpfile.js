@@ -42,8 +42,12 @@ gulp.task('compress-css', function(callback) {      //- 创建一个名为compre
       callback();
     });
 });
+gulp.task('compress-img', function () {
+  gulp.src(['src/images/*.*'])
+    .pipe(gulp.dest('dist/images'))
+})
 
-gulp.task('rev-html',['compress-css','compress-js'], function() {          //- compress-css和compress-js任务执行完毕再执行rev-index任务
+gulp.task('rev-html',['compress-css','compress-js', 'compress-img'], function() {          //- compress-css和compress-js任务执行完毕再执行rev-index任务
   /*修改其它html文件的link标签和script标签引用的css和js文件名，并把html文件输出到指定的位置*/
   gulp.src(['rev-css/*.json','rev-js/*.json', 'src/**/*.html'])     //- 读取两个rev-manifest.json文件以及需要进行css和js名替换的html文件
     .pipe(plugins.revCollector())                                                      //- 执行文件内css和js名的替换
@@ -74,6 +78,12 @@ gulp.task('push', function (cb) {
     cb(err);
   });
 });
+gulp.task('clean', del.bind(null, ['dist/*']))
 
+gulp.task('watch',['clean', 'rev-html'], function () {
+  gulp.watch('src/**/*.js', ['rev-html'])
+  gulp.watch('src/**/*.html', ['rev-html'])
+  gulp.watch('src/**/*.less', ['rev-html'])
+})
 
 gulp.task('rev', gulpSequence( 'rev-html','add', 'commit', 'push'));
