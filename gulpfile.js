@@ -70,7 +70,7 @@ gulp.task('commit', function (cb) {
 });
 
 gulp.task('push', function (cb) {
-  exec('git push', function (err, stdout, stderr) {
+  exec('git push origin', function (err, stdout, stderr) {
     cb(err);
   });
 });

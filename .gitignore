@@ -1,5 +1,6 @@
 # Distribution directory
 dit/*.map
+.idea
 src/.idea
 # Dependency directories
 node_modules
