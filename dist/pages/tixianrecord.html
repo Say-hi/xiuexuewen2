@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../common/css/common-348d231a6e.css">
     <link rel="stylesheet" href="../common/css/iconfont-be24dce2ca.css">
     <!--样式表-->
-    <link rel="stylesheet" href="../css/tixianrecord-3870c31414.css">
+    <link rel="stylesheet" href="../css/tixianrecord-ebd039bd94.css">
     <!--rem-->
     <script src="../common/js/rem-97dae64c99.js"></script>
     <!--ftclick.js-->
@@ -27,49 +27,60 @@
         <span class="p020 c999">提现失败</span>
     </div>
 
-    <div class="bgfff mb30 pb30">
-        <div class="jilu p30 c999 f28 bgfff">
-            <span>申请单号： <span class="">001904519394067205</span></span>
+    <div class="container">
+        <div class="bgfff mb30 pb30 item">
+            <div class="jilu p30 c999 f28 bgfff">
+                <span>申请单号： <span class="">001904519394067205</span></span>
+            </div>
+            <div class="p030 f28 lh88 center-flex">
+                <p class="need-left lh88">提现审核中</p>
+                <p>¥88.80</p>
+            </div>
+            <div class="center-flex f28 c999 p030 ">
+                <span class="f28 c999">提现方式：公众号红包</span>
+                <span>2019-02-26 09:25:10</span>
+            </div>
         </div>
-        <div class="p030 f28 lh88 center-flex">
-            <p class="need-left lh88">提现审核中</p>
-            <p>¥88.80</p>
-        </div>
-        <div class="center-flex f28 c999 p030 ">
-            <span class="f28 c999">提现方式：公众号红包</span>
-            <span>2019-02-26 09:25:10</span>
-        </div>
-    </div>
 
-    <div class="bgfff mb30 pb30">
-        <div class="jilu p30 c999 f28 bgfff">
-            <span>申请单号： <span class="">001904519394067205</span></span>
-        </div>
-        <div class="p030 f28 lh88 center-flex">
-            <p class="need-left lh88">提现审核中</p>
-            <p>¥88.80</p>
-        </div>
-        <div class="center-flex f28 c999 p030 ">
-            <span class="f28 c999">提现方式：公众号红包</span>
-            <span>2019-02-26 09:25:10</span>
+        <div class="bgfff mb30 pb30 item">
+            <div class="jilu p30 c999 f28 bgfff">
+                <span>申请单号： <span class="">001904519394067205</span></span>
+            </div>
+            <div class="p030 f28 lh88 center-flex">
+                <p class="need-left lh88">提现审核中</p>
+                <p>¥88.80</p>
+            </div>
+            <div class="center-flex f28 c999 p030 ">
+                <span class="f28 c999">提现方式：公众号红包</span>
+                <span>2019-02-26 09:25:10</span>
+            </div>
         </div>
     </div>
 </body>
 </html>
 <!--jq-->
 <script src="../common/js/jq3-e7e274a875.3.1.js"></script>
-<script>
-    function getUrlParam(name) {
-      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-      var r = window.location.search.substr(1).match(reg);
-      if (r != null) return decodeURI(r[2]); return null;
-    }
-    $(function () {
-      $('.record-tab span').click(function () {
-        $('.record-tab span').removeClass('c2ca2f2')
-        $(this).addClass('c2ca2f2')
-      })
-    })
-
+<script src="../common/js/temp-563daa4282.js"></script>
+<script id="item" type="text/html">
+    {{each target}}
+        <div class="bgfff mb30 pb30 item">
+            <div class="jilu p30 c999 f28 bgfff">
+                <span>申请单号： <span class="">{{ $value.number }}</span></span>
+            </div>
+            <div class="p030 f28 lh88 center-flex">
+                <p class="need-left lh88 {{$value.status >= 3 ? 'fail' : ''}}">{{$value.status == 1 ? '提现审核中' : $value.status == 2 ? '提现成功' : '提现失败'}}{{$index}}</p>
+                <p>¥{{$value.money}}</p>
+            </div>
+            <div class="center-flex f28 c999 p030 ">
+                <span class="f28 c999">提现方式：公众号红包</span>
+                <span>{{$value.time}}</span>
+            </div>
+        </div>
+    {{/each}}
 </script>
+
+<script src="../js/tixianrecord-77af8fcf4c.js"></script>
+<!--<script>-->
+    <!---->
+<!--</script>-->
 
