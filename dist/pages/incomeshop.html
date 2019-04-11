@@ -24,60 +24,12 @@
     <div class="search pr bgcfff p2030">
         <div class="f28 search-area p020">
             <span class="font_family icon-sousuo f32"></span>
-            <input placeholder="请输入订单号" type="text">
+            <input placeholder="请输入用户名" type="text">
         </div>
     </div>
 </div>
 
-<div class="container">
-    <!--<div class="agents">-->
-        <!--<a href="">-->
-            <!--<p class="f28 c999 p30 a-top">-->
-                <!--<span class="c444">分销商ID</span>-->
-                <!--<span class="">查看收益明细<span class="font_family icon-xiangyou"></span></span>-->
-            <!--</p>-->
-        <!--</a>-->
-        <!--<div class="p30 a-center c999 f24">-->
-            <!--<div>-->
-                <!--<p>可提现收益(元)</p>-->
-                <!--<p>88</p>-->
-            <!--</div>-->
-            <!--<div class="ac-center">-->
-                <!--<p>待到账收益(元)</p>-->
-                <!--<p>88</p>-->
-            <!--</div>-->
-            <!--<div>-->
-                <!--<p>已提现收益(元)</p>-->
-                <!--<p>88</p>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="p30 f24 c999">累计总收益(元)：<span class="c444">1068.80</span></div>-->
-    <!--</div>-->
-
-    <!--<div class="agents">-->
-        <!--<a href="">-->
-            <!--<p class="f28 c999 p30 a-top">-->
-                <!--<span class="c444">分销商ID</span>-->
-                <!--<span class="">查看收益明细<span class="font_family icon-xiangyou"></span></span>-->
-            <!--</p>-->
-        <!--</a>-->
-        <!--<div class="p30 a-center c999 f24">-->
-            <!--<div>-->
-                <!--<p>可提现收益(元)</p>-->
-                <!--<p>88</p>-->
-            <!--</div>-->
-            <!--<div class="ac-center">-->
-                <!--<p>待到账收益(元)</p>-->
-                <!--<p>88</p>-->
-            <!--</div>-->
-            <!--<div>-->
-                <!--<p>已提现收益(元)</p>-->
-                <!--<p>88</p>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--<div class="p30 f24 c999">累计总收益(元)：<span class="c444">1068.80</span></div>-->
-    <!--</div>-->
-</div>
+<div class="container"></div>
 
 <div class="modal">
     <div class="modal-container tac">
@@ -93,34 +45,39 @@
 <script src="../common/js/temp-563daa4282.js"></script>
 
 <script id="item" type="text/html">
-    {{each target}}
-    <div class="agents">
-        <a href="./income.html?id={{$value.id || $index}}&type=agents">
-            <p class="f28 c999 p30 a-top">
-                <span class="c444">{{$value.id || $index}}</span>
-                <span class="">查看收益明细<span class="font_family icon-xiangyou"></span></span>
-            </p>
-        </a>
-        <div class="p30 a-center c999 f24">
-            <div>
-                <p>可提现收益(元)</p>
-                <p>88</p>
+    {{if target.length > 0}}
+        {{each target}}
+            <div class="agents">
+                <a href="./income.html?id={{$value.id || $index}}&type=agents">
+                    <p class="f28 c999 p30 a-top">
+                        <span class="c444">{{$value.id || $index}}</span>
+                        <span class="">查看收益明细<span class="font_family icon-xiangyou"></span></span>
+                    </p>
+                </a>
+                <div class="p30 a-center c999 f24">
+                    <div>
+                        <p>可提现收益(元)</p>
+                        <p>88</p>
+                    </div>
+                    <div class="ac-center">
+                        <p>待到账收益(元)</p>
+                        <p>88</p>
+                    </div>
+                    <div>
+                        <p>已提现收益(元)</p>
+                        <p>88</p>
+                    </div>
+                </div>
+                <div class="p30 f24 c999">累计总收益(元)：<span class="c444">1068.80</span></div>
             </div>
-            <div class="ac-center">
-                <p>待到账收益(元)</p>
-                <p>88</p>
-            </div>
-            <div>
-                <p>已提现收益(元)</p>
-                <p>88</p>
-            </div>
-        </div>
-        <div class="p30 f24 c999">累计总收益(元)：<span class="c444">1068.80</span></div>
-    </div>
-    {{/each}}
+        {{/each}}
+    {{else}}
+        <div class="p30 tac c999 f32 nomore">--- 到底了没有更多内容 ---</div>
+    {{/if}}
+
 </script>
 
-<script src="../js/incomeshop-2d3849716e.js"></script>
+<script src="../js/incomeshop-cc31a5e96b.js"></script>
 <!--<script>-->
 <!---->
 <!--</script>-->
