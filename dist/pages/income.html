@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="../common/css/common-55875826ee.css">
     <link rel="stylesheet" href="../common/css/iconfont-be24dce2ca.css">
     <!--样式表-->
-    <link rel="stylesheet" href="../css/income-100a8b2440.css">
+    <link rel="stylesheet" href="../css/income-369077ccd6.css">
     <!--rem-->
     <script src="../common/js/rem-97dae64c99.js"></script>
     <!--ftclick.js-->
@@ -22,13 +22,31 @@
 </head>
 <body>
 <div class="record-tab f28">
-    <div class="search bgcfff p2030">
+    <div class="search pr bgcfff p2030">
         <div class="f28 search-area p020">
             <span class="font_family icon-sousuo f32"></span>
-            <input placeholder="请输入日期/订单号" type="text">
+            <input placeholder="请输入订单号" type="text">
         </div>
 
-        <span class="">筛选<span class="font_family icon-xiangyou f32"></span></span>
+        <span>筛选<span class="font_family icon-xiangyou f32"></span></span>
+        <div class="choose-time f28 c999 p30">
+            <div>时间筛选</div>
+            <div class="f24 ct-area">
+                <div class="time-item">
+                    <span>起始</span>
+                    <input type="date">
+                </div>
+                <span class="p020">-</span>
+                <div class="time-item">
+                    <span>截止</span>
+                    <input type="date">
+                </div>
+            </div>
+            <div class="f34 cfff bottom-btn">
+                <div class="c2ca2f2">重置</div>
+                <div>确定</div>
+            </div>
+        </div>
     </div>
     <div class="record-tab-tab p3010">
         <span class="p020 c999 c2ca2f2">全部收益</span>
@@ -36,6 +54,7 @@
         <span class="p020 c999">已到账收益</span>
         <span class="p020 c999">待到账收益</span>
     </div>
+
 </div>
 
 <div class="container">
@@ -66,10 +85,7 @@
         </div>
     </div>
 </div>
-<div>
-    <input type="time" placeholder="12341">
-    <input type="date" placeholder="12341">
-</div>
+
 <div class="modal">
     <div class="modal-container tac">
         <img src="../images/loading.gif" alt="">
