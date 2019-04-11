@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="../common/css/common-55875826ee.css">
     <link rel="stylesheet" href="../common/css/iconfont-be24dce2ca.css">
     <!--样式表-->
-    <link rel="stylesheet" href="../css/income-aec31e9047.css">
+    <link rel="stylesheet" href="../css/income-100a8b2440.css">
     <!--rem-->
     <script src="../common/js/rem-97dae64c99.js"></script>
     <!--ftclick.js-->
     <script src="../common/js/ftclick-b2b22cf87d.js"></script>
+
 
 </head>
 <body>
@@ -30,41 +31,43 @@
         <span class="">筛选<span class="font_family icon-xiangyou f32"></span></span>
     </div>
     <div class="record-tab-tab p3010">
-        <span class="p020 c999 c2ca2f2">全部</span>
-        <span class="p020 c999">审核中</span>
-        <span class="p020 c999">提现成功</span>
-        <span class="p020 c999">提现失败</span>
+        <span class="p020 c999 c2ca2f2">全部收益</span>
+        <span class="p020 c999">今日收益</span>
+        <span class="p020 c999">已到账收益</span>
+        <span class="p020 c999">待到账收益</span>
     </div>
 </div>
 
 <div class="container">
-    <div class="bgfff mb30 pb30 item">
-        <div class="jilu p30 c999 f28 bgfff">
-            <span>申请单号： <span class="">001904519394067205</span></span>
+    <div class="bgfff mb30 pb30 item p30">
+        <div class="jilu  c999 f28 bgfff">
+            <span>订单号：<span class="">001904519394067205</span></span>
         </div>
-        <div class="p030 f28 lh88 center-flex">
-            <p class="need-left lh88">提现审核中</p>
-            <p>¥88.80</p>
+        <div class=" f28 lh88 center-flex">
+            <p class="need-left lh88">销售商品收益</p>
+            <p>+88.80</p>
         </div>
-        <div class="center-flex f28 c999 p030 ">
-            <span class="f28 c999">提现方式：公众号红包</span>
+        <div class="center-flex f28 c999  ">
+            <span class="f28 c999">待到账收益</span>
             <span>2019-02-26 09:25:10</span>
         </div>
     </div>
-
-    <div class="bgfff mb30 pb30 item">
-        <div class="jilu p30 c999 f28 bgfff">
-            <span>申请单号： <span class="">001904519394067205</span></span>
+    <div class="bgfff mb30 pb30 item p30">
+        <div class="jilu  c999 f28 bgfff">
+            <span>订单号：<span class="">001904519394067205</span></span>
         </div>
-        <div class="p030 f28 lh88 center-flex">
-            <p class="need-left lh88">提现审核中</p>
-            <p>¥88.80</p>
+        <div class=" f28 lh88 center-flex">
+            <p class="need-left lh88">销售商品收益</p>
+            <p>+88.80</p>
         </div>
-        <div class="center-flex f28 c999 p030 ">
-            <span class="f28 c999">提现方式：公众号红包</span>
+        <div class="center-flex f28 c999  ">
+            <span class="f28 c999"></span>
             <span>2019-02-26 09:25:10</span>
         </div>
     </div>
+</div>
+<div>
+    <input type="time" placeholder="12341">
 </div>
 <div class="modal">
     <div class="modal-container tac">
@@ -76,25 +79,26 @@
 <!--jq-->
 <script src="../common/js/jq3-e7e274a875.3.1.js"></script>
 <script src="../common/js/temp-563daa4282.js"></script>
+
 <script id="item" type="text/html">
     {{each target}}
-    <div class="bgfff mb30 pb30 item">
-        <div class="jilu p30 c999 f28 bgfff">
-            <span>申请单号： <span class="">{{ $value.number }}</span></span>
+    <div class="bgfff mb30 pb30 item p30">
+        <div class="jilu  c999 f28 bgfff">
+            <span>订单号：<span class="">{{$value.number}}</span></span>
         </div>
-        <div class="p030 f28 lh88 center-flex">
-            <p class="need-left lh88 {{$value.status >= 3 ? 'fail' : ''}}">{{$value.status == 1 ? '提现审核中' : $value.status == 2 ? '提现成功' : '提现失败'}}{{$index}}</p>
-            <p>¥{{$value.money}}</p>
+        <div class=" f28 lh88 center-flex">
+            <p class="need-left lh88">销售商品收益</p>
+            <p>+{{$value.money}}</p>
         </div>
-        <div class="center-flex f28 c999 p030 ">
-            <span class="f28 c999">提现方式：公众号红包</span>
+        <div class="center-flex f28 c999  ">
+            <span class="f28 c999">待到账收益</span>
             <span>{{$value.time}}</span>
         </div>
     </div>
     {{/each}}
 </script>
 
-<script src="../js/income-8971778a9c.js."></script>
+<script src="../js/income-5017540e35.js"></script>
 <!--<script>-->
 <!---->
 <!--</script>-->
