@@ -14,7 +14,7 @@ var argv = require('minimist')(process.argv.slice(2));
 const plugins = gulpLoadPlugins()
 
 gulp.task('compress-js', (callback) => {
-  gulp.src(['src/**/*.js'])
+  gulp.src(['src/**/*.js', '!src/**/*/Mdate.js'])
     .pipe(plugins.babel())
     .pipe(plugins.uglify())
     .pipe(plugins.rev())
@@ -25,6 +25,8 @@ gulp.task('compress-js', (callback) => {
       console.log('compress-js has been completed');
       callback();
     });
+  gulp.src(['src/**/*/Mdate.js'])
+    .pipe(gulp.dest('dist'))
 })
 
 gulp.task('compress-css', function(callback) {      //- 创建一个名为compress-css的task

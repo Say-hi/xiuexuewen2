@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="../common/css/common-55875826ee.css">
     <link rel="stylesheet" href="../common/css/iconfont-be24dce2ca.css">
     <!--样式表-->
-    <link rel="stylesheet" href="../css/income-43063382a4.css">
+    <link rel="stylesheet" href="../css/income-6ad64023ed.css">
+    <link rel="stylesheet" href="../common/css/Mdate-4094e9edd6.css">
     <!--rem-->
     <script src="../common/js/rem-97dae64c99.js"></script>
     <!--ftclick.js-->
     <script src="../common/js/ftclick-b2b22cf87d.js"></script>
-
+    <script src="../common/js/iScroll-460da0df27.js"></script>
+    <script src="../common/js/Mdate.js"></script>
 
 </head>
 <body>
@@ -28,25 +30,23 @@
             <input placeholder="请输入订单号" type="text">
         </div>
 
-        <span>筛选<span class="font_family icon-xiangyou f32"></span></span>
-        <div class="choose-time f28 c999 p30">
+        <p class="c2ca2f2 choose-btn">筛选<p class="font_family c2ca2f2 icon-xiangyou f32"></p></p>
+        <div class="choose-time f28 c999">
             <div>时间筛选</div>
             <div class="f24 ct-area">
-                <label for="choosetime1">
+                <div id="time1" class="time-item">
                     <span>起始</span>
-                    <span>2018/12/12</span>
-                    <input id="choosetime1" type="date">
-                </label>
+                    <input disabled value="2018/12/12" type="text" id="time11">
+                </div>
                 <span class="p020">-</span>
-                <label for="choosetime2">
+                <div id="time2" class="time-item">
                     <span>截止</span>
-                    <span>2018/12/12</span>
-                    <input id="choosetime2" type="date">
-                </label>
+                    <input disabled value="2018/12/12" id="time22" type="text">
+                </div>
             </div>
             <div class="f34 cfff bottom-btn">
                 <div class="c2ca2f2">重置</div>
-                <div>确定</div>
+                <div class="choose-time-confirm-btn">确定</div>
             </div>
         </div>
     </div>
@@ -93,6 +93,8 @@
         <img src="../images/loading.gif" alt="">
     </div>
 </div>
+
+<div id="MdatePlugin" class="slideOut"></div>
 </body>
 </html>
 <!--jq-->
@@ -102,7 +104,7 @@
 <script id="item" type="text/html">
     {{each target}}
     <div class="bgfff mb30 pb30 item p30">
-        <div class="jilu  c999 f28 bgfff">
+        <div class="jilu c999 f28 bgfff">
             <span>订单号：<span class="">{{$value.number}}</span></span>
         </div>
         <div class=" f28 lh88 center-flex">
@@ -117,7 +119,7 @@
     {{/each}}
 </script>
 
-<script src="../js/income-be1603d897.js"></script>
+<script src="../js/income-f52cc1235a.js"></script>
 <!--<script>-->
 <!---->
 <!--</script>-->
