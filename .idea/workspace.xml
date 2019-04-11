@@ -31,18 +31,18 @@
       <file leaf-file-name="income.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/income.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state relative-caret-position="386">
+              <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="income.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="income.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/income.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="69" column="1" lean-forward="false" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+            <state relative-caret-position="242">
+              <caret line="71" column="32" lean-forward="false" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
               <folding>
                 <element signature="n#!!doc;n#getUrlParam#0" expanded="false" />
                 <element signature="e#249#849#0" expanded="false" />
@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="income.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="income.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/income.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="102" column="34" lean-forward="false" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
+            <state relative-caret-position="298">
+              <caret line="99" column="27" lean-forward="false" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
               <folding>
                 <element signature="e#262#626#0" expanded="false" />
                 <element signature="e#639#1027#0" expanded="false" />
@@ -163,9 +163,9 @@
         <option value="$PROJECT_DIR$/src/common/reset.less" />
         <option value="$PROJECT_DIR$/src/pages/index.html" />
         <option value="$PROJECT_DIR$/src/common/js/time.js" />
-        <option value="$PROJECT_DIR$/src/js/income.js" />
         <option value="$PROJECT_DIR$/src/pages/income.html" />
         <option value="$PROJECT_DIR$/src/css/income.less" />
+        <option value="$PROJECT_DIR$/src/js/income.js" />
       </list>
     </option>
   </component>
@@ -443,12 +443,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554866252975</updated>
-      <workItem from="1554866255131" duration="33660000" />
+      <workItem from="1554866255131" duration="33754000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33660000" />
+    <option name="totallyTimeSpent" value="33754000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,17 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/income.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="69" column="1" lean-forward="false" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!doc;n#getUrlParam#0" expanded="false" />
-            <element signature="e#249#849#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/tixian.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -729,21 +718,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/income.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="99" column="27" lean-forward="false" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+          <folding>
+            <element signature="e#262#626#0" expanded="false" />
+            <element signature="e#639#1027#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/income.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="34" column="39" lean-forward="false" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="386">
+          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/income.less">
+    <entry file="file://$PROJECT_DIR$/src/js/income.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="102" column="34" lean-forward="false" selection-start-line="102" selection-start-column="34" selection-end-line="102" selection-end-column="34" />
+        <state relative-caret-position="242">
+          <caret line="71" column="32" lean-forward="false" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
           <folding>
-            <element signature="e#262#626#0" expanded="false" />
-            <element signature="e#639#1027#0" expanded="false" />
+            <element signature="n#!!doc;n#getUrlParam#0" expanded="false" />
+            <element signature="e#249#849#0" expanded="false" />
           </folding>
         </state>
       </provider>
