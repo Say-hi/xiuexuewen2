@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>资金管理</title>
+    <!--重置css-->
+    <link rel="stylesheet" href="../common/reset-fa7f67953c.css">
+    <!--公共css-->
+    <link rel="stylesheet" href="../common/css/common-0535da783a.css">
+    <link rel="stylesheet" href="../common/css/iconfont-be24dce2ca.css">
+    <!--样式表-->
+    <link rel="stylesheet" href="../css/indexshop-c861a8da2f.css">
+    <!--rem-->
+    <script src="../common/js/rem-5c340da448.js"></script>
+    <!--ftclick.js-->
+    <script src="../common/js/ftclick-b2b22cf87d.js"></script>
+</head>
+<body>
+<!--顶部卡片-->
+<div class="user-top">
+    <!--&lt;!&ndash;上部阴影&ndash;&gt;-->
+    <!--<div class="ut-top p2030 pr">-->
+        <!--<div class="utt-info p30">-->
+            <!--<div class="utti-top f28 cfff">-->
+                <!--<span>我的可提现收益(元) <span class="font_family icon-gantanhao f28"></span></span>-->
+                <!--<span id="user_see" class="font_family icon-biyan f32 icon-yanjing"></span>-->
+            <!--</div>-->
+            <!--<p id="user_money" class="user-money fw7 f58 mb30 cfff">88.88</p>-->
+            <!--<div class="utt-bottom">-->
+                <!--<p class="f28 cfff">累计已提现收益(元) <span class="font_family icon-gantanhao f28"></span></p>-->
+                <!--<div class="f28 cfff uttb-b mt10">-->
+                    <!--<span id="user_out_money" class="">8888.88</span>-->
+                    <!--<a class="cfff" href="./income.html">-->
+                        <!--<span>收益明细<span class="font_family icon-fangxiang-you f28"></span></span>-->
+                    <!--</a>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;下部白色&ndash;&gt;-->
+    <!--<div class="ut-bottom p30">-->
+        <!--<a href="./tixian.html">-->
+            <!--<div class="tac f34 cfff fw7 p20 tixian">提现</div>-->
+        <!--</a>-->
+    <!--</div>-->
+<!--</div>-->
+
+
+
+<div class="bgfff pb30">
+    <div class="jilu p030 c444 f28 lh88 mt20 bgfff">
+        <span class="need-left fw7 c444">待处理提现审核订单</span>
+    </div>
+    <div id="today_in" class="f58 c2ca2f2 fw7 p030">88.88</div>
+    <a href="./auditing.html">
+        <div class="f28 c999 p030 mt30">查看审核订单 <span class="font_family icon-xiangyou f28"></span></div>
+    </a>
+</div>
+
+    <a href="./incomeshop.html?type=tixian">
+        <div class="jilu p030 c444 f28 mt20 lh88 bgfff">
+            <span class="need-left fw7">提现记录</span>
+            <span class="c999">查看提现记录<span class="font_family icon-xiangyou f28"></span></span>
+        </div>
+    </a>
+
+    <a href="./incomeshop.html?type=shouyi">
+        <div class="jilu p030 c444 f28 mt20 lh88 bgfff">
+            <span class="need-left fw7">收益记录</span>
+            <span class="c999">查看收益记录<span class="font_family icon-xiangyou f28"></span></span>
+        </div>
+    </a>
+
+<!--https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd5876bbae0b7f779&redirect_uri=https%3a%2f%2fc.jiangwenqiang.com/xiuxuewen2/dist/pages/index.html&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect-->
+
+
+</body>
+</html>
+<!--jq-->
+<script src="../common/js/jq3-e7e274a875.3.1.js"></script>
+<script>
+    function getUrlParam(name) {
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+      var r = window.location.search.substr(1).match(reg);
+      if (r != null) return decodeURI(r[2]); return null;
+    }
+
+    $(function () {
+      FastClick.attach(document.body);
+    })
+</script>
+
