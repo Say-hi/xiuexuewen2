@@ -1,46 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/Mdate-4094e9edd6.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/common-0535da783a.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/iconfont-be24dce2ca.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/Mdate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/ftclick-b2b22cf87d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/iScroll-460da0df27.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/jq3-e7e274a875.3.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/rem-5c340da448.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/temp-563daa4282.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/reset-fa7f67953c.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/auditing-c7467b7f3b.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/auditingconfirm-d4803dd380.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-47ea3494c8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-f9b4dcad69.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/incomeshop-391d8055f2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/index-c861a8da2f.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/indexshop-c861a8da2f.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/tixian-690f9fea3d.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/tixianrecord-ebd039bd94.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditing-858f4d1863.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditingconfirm-1daa6859e9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-282b461aca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-709b853e19.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-d267f2b083.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/incomeshop-edf831b3c9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/tixianrecord-dfbadd3792.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/auditing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/auditingconfirm.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/income.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/incomeshop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/indexshop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/ruler.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/tixian.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/tixianrecord.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -125,21 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="incomeshop.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="incomeshop.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/incomeshop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="55" column="20" lean-forward="false" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rem.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/common/js/rem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="0" column="539" lean-forward="false" selection-start-line="0" selection-start-column="539" selection-end-line="0" selection-end-column="539" />
+            <state relative-caret-position="281">
+              <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -283,82 +234,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="绣学问-公众号3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="绣学问-公众号3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="绣学问-公众号3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="绣学问-公众号3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="绣学问-公众号3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="绣学问-公众号3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="绣学问-公众号3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="绣学问-公众号3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -458,12 +333,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554866252975</updated>
       <workItem from="1554866255131" duration="43600000" />
-      <workItem from="1555031268470" duration="11290000" />
+      <workItem from="1555031268470" duration="12194000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54890000" />
+    <option name="totallyTimeSpent" value="55794000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -841,14 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/incomeshop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="55" column="20" lean-forward="false" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/income.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
@@ -890,6 +757,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="0" column="539" lean-forward="false" selection-start-line="0" selection-start-column="539" selection-end-line="0" selection-end-column="539" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/incomeshop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="56" column="51" lean-forward="true" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
           <folding />
         </state>
       </provider>
