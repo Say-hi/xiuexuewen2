@@ -1,1 +1,0 @@
-"use strict";function getUrlParam(t){var e=new RegExp("(^|&)"+t+"=([^&]*)(&|$)"),n=window.location.search.substr(1).match(e);return null!=n?decodeURI(n[2]):null}var data=[{number:"1234234",money:100,status:1,time:new Date}];$(function(){});

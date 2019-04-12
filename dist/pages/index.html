@@ -99,6 +99,23 @@
       var r = window.location.search.substr(1).match(reg);
       if (r != null) return decodeURI(r[2]); return null;
     }
+
+    function changeShow () {
+      console.log(2)
+      $('#user_see').toggleClass('icon-yanjing')
+      if (!$('#user_see').hasClass('icon-yanjing')) {
+        $('#user_money').html('****')
+        $('#user_out_money').html('****')
+        $('#today_in').html('****')
+        $('#ready_in').html('****')
+      } else {
+        $('#user_money').html('88.88')
+        $('#user_out_money').html('8888.88')
+        $('#today_in').html('8888')
+        $('#ready_in').html('8888')
+      }
+    }
+
     $(function () {
       if (localStorage.getItem('user_id')) {
         $('.localstorage').html(localStorage.getItem('user_id'))
@@ -109,18 +126,9 @@
 
       FastClick.attach(document.body);
       $('#user_see').click(function () {
-        $(this).toggleClass('icon-yanjing')
-        if (!$(this).hasClass('icon-yanjing')) {
-          $('#user_money').html('****')
-          $('#user_out_money').html('****')
-          $('#today_in').html('****')
-          $('#ready_in').html('****')
-        } else {
-          $('#user_money').html('88.88')
-          $('#user_out_money').html('8888.88')
-          $('#today_in').html('8888')
-          $('#ready_in').html('8888')
-        }
+        console.log(1)
+
+        changeShow()
       })
     })
 </script>
