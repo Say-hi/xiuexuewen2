@@ -2,8 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/Mdate-4094e9edd6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/common-0535da783a.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/iconfont-be24dce2ca.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/Mdate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/ftclick-b2b22cf87d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/iScroll-460da0df27.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/jq3-e7e274a875.3.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/rem-97dae64c99.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/temp-563daa4282.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/reset-fa7f67953c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/auditing-c7467b7f3b.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/auditingconfirm-d4803dd380.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-29dd901eec.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-2ab4947a04.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-3d7f293198.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-47ea3494c8.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-b76052e395.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-bd8d7717f1.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-bebb728337.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-c7703e4a80.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-cb99d2227f.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-eb538f3e34.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/incomeshop-391d8055f2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/index-c861a8da2f.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/indexshop-c861a8da2f.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/tixian-690f9fea3d.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/tixianrecord-ebd039bd94.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditing-858f4d1863.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditing-c04b4d2aae.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditingconfirm-103e09fb60.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditingconfirm-1daa6859e9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-282b461aca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-7231a1be3e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-9aaac35d3e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-ebb40c9a64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/incomeshop-323878a81e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/incomeshop-edf831b3c9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/tixianrecord-dfbadd3792.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/tixianrecord-ed162352e4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/auditing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/auditingconfirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/income.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/incomeshop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/indexshop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/ruler.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/tixian.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/tixianrecord.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/income.html" afterPath="$PROJECT_DIR$/dist/pages/income.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,15 +125,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="income.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="income.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/income.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="334">
-              <caret line="91" column="35" lean-forward="true" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+              <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc;n#getUrlParam#0" expanded="false" />
                 <element signature="e#249#849#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rem.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common/js/rem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="5" column="527" lean-forward="false" selection-start-line="5" selection-start-column="527" selection-end-line="5" selection-end-column="527" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,16 +176,6 @@
               <folding>
                 <element signature="n#!!doc;n#getUrlParam#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auditing.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/auditing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="71" column="34" lean-forward="false" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="34" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -191,7 +240,6 @@
         <option value="$PROJECT_DIR$/src/pages/ruler.html" />
         <option value="$PROJECT_DIR$/src/pages/auditingconfirm.html" />
         <option value="$PROJECT_DIR$/src/pages/auditing.html" />
-        <option value="$PROJECT_DIR$/src/common/js/rem.js" />
         <option value="$PROJECT_DIR$/src/js/auditing.js" />
         <option value="$PROJECT_DIR$/src/js/auditingconfirm.js" />
         <option value="$PROJECT_DIR$/src/js/incomeshop.js" />
@@ -201,6 +249,7 @@
         <option value="$PROJECT_DIR$/src/pages/index.html" />
         <option value="$PROJECT_DIR$/src/pages/income.html" />
         <option value="$PROJECT_DIR$/src/js/income.js" />
+        <option value="$PROJECT_DIR$/src/common/js/rem.js" />
       </list>
     </option>
   </component>
@@ -221,9 +270,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="780" />
-    <option name="y" value="31" />
-    <option name="width" value="1586" />
+    <option name="x" value="505" />
+    <option name="y" value="16" />
+    <option name="width" value="1707" />
     <option name="height" value="1020" />
   </component>
   <component name="ProjectView">
@@ -483,12 +532,12 @@
       <option name="presentableId" value="Default" />
       <updated>1554866252975</updated>
       <workItem from="1554866255131" duration="43600000" />
-      <workItem from="1555031268470" duration="9590000" />
+      <workItem from="1555031268470" duration="9883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53190000" />
+    <option name="totallyTimeSpent" value="53483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,18 +549,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="780" y="31" width="1586" height="1020" extended-state="0" />
-    <editor active="true" />
+    <frame x="505" y="16" width="1707" height="1020" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1750646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16237268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26749435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26749435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -813,14 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/js/rem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="539" lean-forward="false" selection-start-line="0" selection-start-column="539" selection-end-line="0" selection-end-column="539" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/auditing.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -911,11 +952,19 @@
     <entry file="file://$PROJECT_DIR$/src/js/income.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
-          <caret line="91" column="35" lean-forward="true" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc;n#getUrlParam#0" expanded="false" />
             <element signature="e#249#849#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/rem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="5" column="527" lean-forward="false" selection-start-line="5" selection-start-column="527" selection-end-line="5" selection-end-column="527" />
+          <folding />
         </state>
       </provider>
     </entry>
