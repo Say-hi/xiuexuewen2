@@ -30,11 +30,11 @@
                 <span>我的可提现收益(元) <span class="font_family icon-gantanhao f28"></span></span>
                 <span id="user_see" class="font_family icon-biyan f32 icon-yanjing"></span>
             </div>
-            <p id="user_money" class="user-money fw7 f58 mb30 cfff">88.88</p>
+            <p id="user_money" class="user-money fw7 f58 mb30 cfff">0.00</p>
             <div class="utt-bottom">
                 <p class="f28 cfff">累计已提现收益(元) <span class="font_family icon-gantanhao f28"></span></p>
                 <div class="f28 cfff uttb-b mt10">
-                    <span id="user_out_money" class="">8888.88</span>
+                    <span id="user_out_money" class="">0.00</span>
                     <a class="cfff" href="./income.html">
                         <span>收益明细<span class="font_family icon-fangxiang-you f28"></span></span>
                     </a>
@@ -61,7 +61,7 @@
     <div class="jilu p030 c444 f28 lh88 mt20 bgfff">
         <span class="need-left fw7">今日收益(元) <span class="font_family icon-gantanhao fw7"></span></span>
     </div>
-    <div id="today_in" class="f58 c444 fw7 p030">88.88</div>
+    <div id="today_in" class="f58 c444 fw7 p030">0.00</div>
     <a href="./income.html">
         <div class="f28 c999 p030 mt30">查看收益明细 <span class="font_family icon-xiangyou f28"></span></div>
     </a>
@@ -72,7 +72,7 @@
     <div class="jilu p030 c444 f28 lh88 mt20 bgfff">
         <span class="need-left fw7">待到账收益(元) <span class="font_family icon-gantanhao fw7"></span></span>
     </div>
-    <div id="ready_in" class="f58 c444 fw7 p030">88.88</div>
+    <div id="ready_in" class="f58 c444 fw7 p030">0.00</div>
     <a href="./income.html">
         <div class="f28 c999 p030 mt30">查看收益明细 <span class="font_family icon-xiangyou f28"></span></div>
     </a>
@@ -110,7 +110,8 @@
       } else {
         localStorage.setItem('seedata', 1)
         $('#user_money').html(userInfo.mall_put_money)
-        $('#user_out_money').html(userInfo.mall_put_money)
+        $('#user_out_money').html(userInfo.appear)
+//        $('#user_out_money').html('123')
         $('#today_in').html(userInfo.mall_total_fee)
         $('#ready_in').html(userInfo.wait_profit)
       }
@@ -120,11 +121,14 @@
 //        $('#ready_in').html(userInfo.wait_profit)
 //    }
     $(function () {
-      console.log('uid', getUrlParam('uid'))
-      $.post(`${baseDomain}/user/info`, {uid: 2}, function (res) {
+      $.post(`${baseDomain}/user/info`, {uid: getUrlParam('uid') || 2}, function (res) {
         userInfo = res.data
+        localStorage.setItem('pub_id', res.data.pub_id)
+        localStorage.setItem('pub_openid', res.data.pub_openid)
+        localStorage.setItem('unionid', res.data.unionid)
+        localStorage.setItem('mini_id', res.data.mini_id)
+        localStorage.setItem('mini_openid', res.data.mini_openid)
         console.log(userInfo)
-        console.log(typeof localStorage.getItem('seedata'))
         if (localStorage.getItem('seedata') == 1) {
           $('#user_see').removeClass('icon-yanjing')
           changeShow()
