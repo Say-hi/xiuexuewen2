@@ -48,7 +48,20 @@ gulp.task('compress-img', function () {
   gulp.src(['src/images/*.*'])
     .pipe(gulp.dest('dist/images'))
 })
-
+gulp.task('build', ['rev-html'], function(){
+  gulp.src(['dist/**/*.html'])
+  .pipe(plugins.htmlmin({
+     removeComments: true,//清除HTML注释
+        collapseWhitespace: true,//压缩HTML
+        collapseBooleanAttributes: true,//省略布尔属性的值 <input checked="true"/> ==> <input />
+        removeEmptyAttributes: true,//删除所有空格作属性值 <input id="" /> ==> <input />
+        removeScriptTypeAttributes: true,//删除<script>的type="text/javascript"
+        removeStyleLinkTypeAttributes: true,//删除<style>和<link>的type="text/css"
+        minifyJS: true,//压缩页面JS
+        minifyCSS: true//压缩页面CSS
+  }))
+  .pipe(gulp.dest('dist'))
+})
 gulp.task('rev-html',['compress-css','compress-js', 'compress-img'], function() {          //- compress-css和compress-js任务执行完毕再执行rev-index任务
   /*修改其它html文件的link标签和script标签引用的css和js文件名，并把html文件输出到指定的位置*/
   gulp.src(['rev-css/*.json','rev-js/*.json', 'src/**/*.html'])     //- 读取两个rev-manifest.json文件以及需要进行css和js名替换的html文件
@@ -88,4 +101,4 @@ gulp.task('watch',['clean', 'rev-html'], function () {
   gulp.watch('src/**/*.less', ['rev-html'])
 })
 
-gulp.task('rev', gulpSequence( 'rev-html','add', 'commit', 'push'));
+gulp.task('rev', gulpSequence( 'build','add', 'commit', 'push'));
