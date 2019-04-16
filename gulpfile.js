@@ -50,6 +50,9 @@ gulp.task('compress-img', function () {
 })
 gulp.task('compress-html', function(){
   gulp.src(['dist/**/*.html'])
+  .pipe(gulp.dest('html'))
+  
+  gulp.src(['html/**/*.html'])
   .pipe(plugins.htmlmin({
      removeComments: true,//清除HTML注释
         collapseWhitespace: true,//压缩HTML
