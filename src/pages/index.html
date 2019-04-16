@@ -84,10 +84,6 @@
         <span class="font_family icon-xiangyou f28"></span>
     </div>
 </a>
-<a href="https://c.jiangwenqiang.com">推广主页</a>
-<a href="https://c.jiangwenqiang.com">推广主页</a>
-<a href="https://c.jiangwenqiang.com">推广主页</a>
-<a href="https://c.jiangwenqiang.com">推广主页</a>
 <!--https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd5876bbae0b7f779&redirect_uri=https%3a%2f%2fc.jiangwenqiang.com/xiuxuewen2/dist/pages/index.html&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect-->
 
 </body>
@@ -95,6 +91,8 @@
 <!--jq-->
 <script src="../common/js/jq3.3.1.js"></script>
 <script>
+    var baseDomain = 'http://teach.idwenshi.com/teach/api/web/index.php'
+    var userInfo = null
     function getUrlParam(name) {
       var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
       var r = window.location.search.substr(1).match(reg);
@@ -102,33 +100,40 @@
     }
 
     function changeShow () {
-      console.log(2)
       $('#user_see').toggleClass('icon-yanjing')
       if (!$('#user_see').hasClass('icon-yanjing')) {
+        localStorage.setItem('seedata', 0)
         $('#user_money').html('****')
         $('#user_out_money').html('****')
         $('#today_in').html('****')
         $('#ready_in').html('****')
       } else {
-        $('#user_money').html('88.88')
-        $('#user_out_money').html('8888.88')
-        $('#today_in').html('8888')
-        $('#ready_in').html('8888')
+        localStorage.setItem('seedata', 1)
+        $('#user_money').html(userInfo.mall_put_money)
+        $('#user_out_money').html(userInfo.mall_put_money)
+        $('#today_in').html(userInfo.mall_total_fee)
+        $('#ready_in').html(userInfo.wait_profit)
       }
     }
-
+//    function setdata () {
+//        $('#today_in').html(userInfo.today_profit)
+//        $('#ready_in').html(userInfo.wait_profit)
+//    }
     $(function () {
-//      if (localStorage.getItem('user_id')) {
-//        $('.localstorage').html(localStorage.getItem('user_id'))
-//      } else {
-//        localStorage.setItem("user_id", 1);
-//        $('.localstorage').html(localStorage.getItem('user_id'))
-//      }
-
+      console.log('uid', getUrlParam('uid'))
+      $.post(`${baseDomain}/user/info`, {uid: 2}, function (res) {
+        userInfo = res.data
+        console.log(userInfo)
+        console.log(typeof localStorage.getItem('seedata'))
+        if (localStorage.getItem('seedata') == 1) {
+          $('#user_see').removeClass('icon-yanjing')
+          changeShow()
+        } else {
+          changeShow()
+        }
+      })
       FastClick.attach(document.body);
       $('#user_see').click(function () {
-        console.log(1)
-
         changeShow()
       })
     })
