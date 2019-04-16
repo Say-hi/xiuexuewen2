@@ -60,7 +60,7 @@ gulp.task('build', function(){
         minifyJS: true,//压缩页面JS
         minifyCSS: true//压缩页面CSS
   }))
-  .pipe(gulp.dest('dist'))
+  .pipe(gulp.dest('dist/page'))
 })
 gulp.task('rev-html',['compress-css','compress-js', 'compress-img'], function() {          //- compress-css和compress-js任务执行完毕再执行rev-index任务
   /*修改其它html文件的link标签和script标签引用的css和js文件名，并把html文件输出到指定的位置*/
