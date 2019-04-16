@@ -72,7 +72,7 @@ gulp.task('rev-html',['compress-css','compress-js', 'compress-img'], function() 
 
 
 gulp.task('add', function (cb) {
-  exec('git add *', function (err, stdout, stderr) {
+  exec('git add .', function (err, stdout, stderr) {
     cb(err);
   });
 });

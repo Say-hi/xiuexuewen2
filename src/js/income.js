@@ -109,13 +109,13 @@ $(function () {
   $('#time11').val(starData)
   $('#time22').val(endData)
 
-  // $('.modal').show();
-  // getData({}).then(res => {
-  //   console.log(res)
-  //   let item = template('item', {target: list});
-  //   $('.container').html(item);
-  //   $('.modal').hide();
-  // })
+  $('.modal').show();
+  getData({}).then(res => {
+    console.log(res)
+    let item = template('item', {target: list});
+    $('.container').html(item);
+    $('.modal').hide();
+  })
 
 
 
@@ -158,7 +158,7 @@ $(function () {
   })
   $('.choose-time-confirm-btn').click(function () {
     if (new Date(starData).getTime() > new Date(endData).getTime()) {
-      return alert('结束时间不能超过开始时间')
+      return alert('【截至时间】不能超过【起始时间】')
     }
     $('.icon-xiangyou').toggleClass('show')
     $('.choose-time').toggleClass('height')
