@@ -68,7 +68,7 @@ gulp.task('compress-html', function(){
 gulp.task('rev-html',['compress-css','compress-js', 'compress-img'], function() {          //- compress-css和compress-js任务执行完毕再执行rev-index任务
   /*修改其它html文件的link标签和script标签引用的css和js文件名，并把html文件输出到指定的位置*/
   gulp.src(['rev-css/*.json', 'rev-js/*.json', 'src/**/*.html'])     //- 读取两个rev-manifest.json文件以及需要进行css和js名替换的html文件
-    .pipe(plugins.revCollector())//- 执行文件内css和js名的替换                                                   
+    .pipe(plugins.revCollector()) //- 执行文件内css和js名的替换                                                   
     .pipe(gulp.dest('dist'));                                            //- 替换后的html文件输出的目录
 });
 
