@@ -7,7 +7,6 @@ src/.idea
 node_modules
 rev-css
 rev-js
-src
 
 # Optional npm cache directory
 .npm

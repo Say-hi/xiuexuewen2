@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>提现审核</title>
+    <!--重置css-->
+    <link rel="stylesheet" href="../common/reset.css">
+    <!--公共css-->
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../common/css/iconfont.css">
+    <!--样式表-->
+    <link rel="stylesheet" href="../css/auditingconfirm.css">
+    <!--rem-->
+    <script src="../common/js/rem.js"></script>
+    <!--ftclick.js-->
+    <script src="../common/js/ftclick.js"></script>
+
+</head>
+<body>
+    <div class="container"></div>
+    <div class="modal">
+        <div class="modal-container tac">
+            <img src="../images/loading.gif" alt="">
+        </div>
+    </div>
+</body>
+</html>
+<!--jq-->
+<script src="../common/js/jq3.3.1.js"></script>
+<script src="../common/js/temp.js"></script>
+
+<script id="item" type="text/html">
+    <div class="agents">
+        <p class="f28 c999 p30 a-top">
+            <span class="c444">{{number}}</span>
+        </p>
+        <div class="p30 a-center c999 f24">
+            <div>
+                <p>可提现收益(元)</p>
+                <p class="c2ca2f2">{{money}}</p>
+            </div>
+            <div class="ac-center">
+                <p>待到账收益(元)</p>
+                <p>{{money}}</p>
+            </div>
+            <div>
+                <p>已提现收益(元)</p>
+                <p>{{money}}</p>
+            </div>
+        </div>
+        <div class="p30 f24 c999">累计总收益(元)：<span class="c444">{{money}}</span></div>
+    </div>
+    <div class="bgfff mt20 item p30">
+        <div class="jilu c999 f28 bgfff">
+            <span>申请单号：<span class="">{{number}}</span></span>
+        </div>
+        <div class="f34 fw7 lh88 center-flex">
+            <p class="need-left lh88 f28">销售商品收益</p>
+            <p class="c2ca2f2">￥{{money}}</p>
+        </div>
+        <div class="center-flex f28 c999">
+            <span class="f28 c999">提现方式：公众号红包</span>
+            <span>{{time}}</span>
+        </div>
+    </div>
+    <div class="f28 cfff bottom-btn">
+        <div class="c2ca2f2 cancel">拒绝</div>
+        <div class="choose-time-confirm-btn confirm">通过</div>
+    </div>
+</script>
+
+<script src="../js/auditingconfirm.js"></script>
+<!--<script>-->
+<!---->
+<!--</script>-->
+
