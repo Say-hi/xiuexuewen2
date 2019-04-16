@@ -76,12 +76,12 @@ gulp.task('rev-html',['compress-css','compress-js', 'compress-img'], function() 
         minifyJS: true,//压缩页面JS
         minifyCSS: true//压缩页面CSS
   }))                                                      
-    .pipe(gulp.dest('dist/page'));                                            //- 替换后的html文件输出的目录
+    .pipe(gulp.dest('dist'));                                            //- 替换后的html文件输出的目录
 });
 
 
 gulp.task('add', function (cb) {
-  exec('git add *', function (err, stdout, stderr) {
+  exec('git add .', function (err, stdout, stderr) {
     cb(err);
   });
 });
