@@ -109,7 +109,7 @@ $(function () {
   $('#time11').val(starData)
   $('#time22').val(endData)
 
-  $('.modal').show();
+  // $('.modal').show();
   // getData({}).then(res => {
   //   console.log(res)
   //   let item = template('item', {target: list});
