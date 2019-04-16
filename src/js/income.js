@@ -110,12 +110,12 @@ $(function () {
   $('#time22').val(endData)
 
   $('.modal').show();
-  getData({}).then(res => {
-    console.log(res)
-    let item = template('item', {target: list});
-    $('.container').html(item);
-    $('.modal').hide();
-  })
+  // getData({}).then(res => {
+  //   console.log(res)
+  //   let item = template('item', {target: list});
+  //   $('.container').html(item);
+  //   $('.modal').hide();
+  // })
 
 
 
