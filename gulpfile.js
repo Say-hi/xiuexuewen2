@@ -91,7 +91,7 @@ gulp.task('commit', function (cb) {
   if(!argv.a){
     commitcon = `${new Date().getTime()}`
   }else {
-    var commitcon=argv.a
+    var commitcon = argv.a
   }
   exec('git commit -m '+ commitcon, function (err, stdout, stderr) {
     cb(err);
