@@ -101,4 +101,4 @@ gulp.task('watch',['clean', 'rev-html'], function () {
   gulp.watch('src/**/*.less', ['rev-html'])
 })
 
-gulp.task('rev', gulpSequence( 'build','add', 'commit', 'push'));
+gulp.task('rev', gulpSequence('build','add', 'commit', 'push'));

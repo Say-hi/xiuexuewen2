@@ -80,4 +80,56 @@
 
 <a href="./indexshop.html">
     <div class="jilu p030 c444 f28 mt20 lh88 bgfff">
-        <span class="need-left fw7">查看商家版本<
+        <span class="need-left fw7">查看商家版本</span>
+        <span class="font_family icon-xiangyou f28"></span>
+    </div>
+</a>
+
+
+<!--https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxd5876bbae0b7f779&redirect_uri=https%3a%2f%2fc.jiangwenqiang.com/xiuxuewen2/dist/pages/index.html&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect-->
+
+
+</body>
+</html>
+<!--jq-->
+<script src="../common/js/jq3-e7e274a875.3.1.js"></script>
+<script>
+    function getUrlParam(name) {
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+      var r = window.location.search.substr(1).match(reg);
+      if (r != null) return decodeURI(r[2]); return null;
+    }
+
+    function changeShow () {
+      console.log(2)
+      $('#user_see').toggleClass('icon-yanjing')
+      if (!$('#user_see').hasClass('icon-yanjing')) {
+        $('#user_money').html('****')
+        $('#user_out_money').html('****')
+        $('#today_in').html('****')
+        $('#ready_in').html('****')
+      } else {
+        $('#user_money').html('88.88')
+        $('#user_out_money').html('8888.88')
+        $('#today_in').html('8888')
+        $('#ready_in').html('8888')
+      }
+    }
+
+    $(function () {
+//      if (localStorage.getItem('user_id')) {
+//        $('.localstorage').html(localStorage.getItem('user_id'))
+//      } else {
+//        localStorage.setItem("user_id", 1);
+//        $('.localstorage').html(localStorage.getItem('user_id'))
+//      }
+
+      FastClick.attach(document.body);
+      $('#user_see').click(function () {
+        console.log(1)
+
+        changeShow()
+      })
+    })
+</script>
+
