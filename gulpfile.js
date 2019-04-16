@@ -48,7 +48,7 @@ gulp.task('compress-img', function () {
   gulp.src(['src/images/*.*'])
     .pipe(gulp.dest('dist/images'))
 })
-gulp.task('build', function(){
+gulp.task('compress-html', function(){
   gulp.src(['dist/**/*.html'])
   .pipe(plugins.htmlmin({
      removeComments: true,//清除HTML注释
@@ -101,4 +101,4 @@ gulp.task('watch',['clean', 'rev-html'], function () {
   gulp.watch('src/**/*.less', ['rev-html'])
 })
 
-gulp.task('rev', gulpSequence('clean', 'rev-html', 'build','add', 'commit', 'push'));
+gulp.task('rev', gulpSequence('clean', 'rev-html', 'compress-html', 'add', 'commit', 'push'));
