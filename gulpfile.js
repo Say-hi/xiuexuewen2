@@ -49,7 +49,7 @@ gulp.task('compress-img', function () {
     .pipe(gulp.dest('dist/images'))
 })
 gulp.task('compress-html', function(){
-  gulp.src(['html/**/*.html'])
+  gulp.src(['dist/**/*.html'])
   .pipe(plugins.htmlmin({
      removeComments: true,//清除HTML注释
         collapseWhitespace: true,//压缩HTML
@@ -66,7 +66,7 @@ gulp.task('rev-html',['compress-css','compress-js', 'compress-img'], function() 
   /*修改其它html文件的link标签和script标签引用的css和js文件名，并把html文件输出到指定的位置*/
   gulp.src(['rev-css/*.json', 'rev-js/*.json', 'src/**/*.html'])     //- 读取两个rev-manifest.json文件以及需要进行css和js名替换的html文件
     .pipe(plugins.revCollector())//- 执行文件内css和js名的替换                                                   
-    .pipe(gulp.dest('html'));                                            //- 替换后的html文件输出的目录
+    .pipe(gulp.dest('dist'));                                            //- 替换后的html文件输出的目录
 });
 
 
@@ -102,4 +102,5 @@ gulp.task('watch',['clean', 'rev-html'], function () {
   gulp.watch('src/**/*.less', ['rev-html'])
 })
 
-gulp.task('rev', gulpSequence('clean', 'rev-html','compress-html', 'add', 'commit', 'push'));
+gulp.task('rev', gulpSequence('clean', 'rev-html', 'add', 'commit', 'push'));
+gulp.task('revhtml', gulpSequence('compress-html', 'add', 'commit', 'push' ))
