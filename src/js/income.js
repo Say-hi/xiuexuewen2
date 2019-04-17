@@ -2,7 +2,7 @@
  * Created by kkk on 2019/4/11.
  */
 
-let baseDomain = 'http://teach.idwenshi.com/teach/api/web/index.php'
+let baseDomain = 'https://teach.idwenshi.com/teach/api/web/index.php'
 let tabIndex = 1
 let page = 0
 let nomore = 0

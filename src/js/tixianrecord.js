@@ -1,7 +1,7 @@
 /**
  * Created by kkk on 2019/4/11.
  */
-let baseDomain = 'http://teach.idwenshi.com/teach/api/web/index.php'
+let baseDomain = 'https://teach.idwenshi.com/teach/api/web/index.php'
 let tabIndex = 0
 let page = 0
 let nomore = 0
@@ -12,7 +12,6 @@ function getUrlParam(name) {
   var r = window.location.search.substr(1).match(reg);
   if (r != null) return decodeURI(r[2]); return null;
 }
-
 
 
 function getData(obj = {}) {
@@ -32,7 +31,7 @@ function getData(obj = {}) {
         v.finish_time = new Date(v.finish_time * 1000).toLocaleString()
       }
       nomore = res.data.lists.length < res.data.pre_page ? 1 : 0
-      let item = template('item', {target: res.data.lists});
+      let item = template('item', {target: res.data.lists, type: getUrlParam('id') >= 1});
       setTimeout(function () {
         if (!res.data.lists.length) {
           if (page == 1) {

@@ -43,20 +43,24 @@
             <div class="jilu p30 c999 f28 bgfff">
                 <span>申请单号： <span class="">{{ $value.order_num }}</span></span>
             </div>
-            <div class="p030 f28 lh88 center-flex">
-                <p class="need-left lh88 {{$value.status >= 3 ? 'fail' : ''}}">{{$value.status == 1 ? '提现审核中' : $value.status == 2 ? '提现成功' : '提现失败'}}{{$index}}</p>
-                <p>¥{{$value.amount}}</p>
+            <div class="p030 f28 lh88 center-flex c444">
+                <p class="need-left lh88 {{$value.status >= 3 ? 'fail' : ''}}">{{$value.status == 1 ? '提现审核中' : $value.status == 2 ? '提现成功' : '提现失败'}}</p>
+                <p class="fw7 {{$value.status != 2 ? 'c999' : 'c444'}}">¥{{$value.amount}}</p>
             </div>
             <div class="center-flex f28 c999 p030 ">
-                <span class="f28 c999">提现方式：{{$value.tid}}</span>
-                <span>{{$value.finish_time}}</span>
+                <span class="f28 c999">提现方式：{{$value.tid || '红包'}}</span>
+                {{if !$type}}
+                <span >{{$value.create_time}}</span>
+                {{/if}}
             </div>
+            {{if $type}}
             <div class="f28 c999 p030 mt20">
                 <span>提交时间：{{$value.create_time}}</span>
             </div>
             <div class="f28 c999 p030 mt20">
-                <span>审核时间：{{$value.finish_time}}</span>
+                <span>审核时间：{{$value.status == 1 ? '审核中' : $value.finish_time}}</span>
             </div>
+            {{/if}}
         </div>
     {{/each}}
 </script>
