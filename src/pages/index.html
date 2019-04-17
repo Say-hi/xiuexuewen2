@@ -116,10 +116,6 @@
         $('#ready_in').html(userInfo.wait_profit)
       }
     }
-//    function setdata () {
-//        $('#today_in').html(userInfo.today_profit)
-//        $('#ready_in').html(userInfo.wait_profit)
-//    }
     $(function () {
       $.post(`${baseDomain}/user/info`, {uid: getUrlParam('uid') || 2}, function (res) {
         userInfo = res.data
