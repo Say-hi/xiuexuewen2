@@ -5,8 +5,8 @@
 let baseDomain = 'http://teach.idwenshi.com/teach/api/web/index.php'
 let tabIndex = 1
 let page = 0
-let list = []
 let nomore = 0
+let needDate = false
 let str = "<div class='tac f28 c999'>--- 哎呀，没有相关数据了 ---</div>"
 function getUrlParam(name) {
   let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
@@ -24,14 +24,13 @@ function getData(obj = {}) {
       where: tabIndex,
       page: ++page,
       out_trade_no: obj.out_trade_no || null,
-      time_start: tabIndex == 2 ? new Date().getTime() / 1000 : obj.time_start || null,
-      time_end: tabIndex == 2 ? 0 : obj.time_end || null
+      time_start: tabIndex == 2 ? (new Date().getTime() / 1000).toFixed(0) : needDate ? new Date(starData).getTime() / 1000 :  obj.time_start || null,
+      time_end: tabIndex == 2 ? 0 : needDate ? new Date(endData).getTime() / 1000 :  obj.time_start || null
     }, function (res) {
       for (let v of res.data.lists) {
         v.create_time = new Date(v.create_time * 1000).toLocaleString()
         v.finish_time = new Date(v.finish_time * 1000).toLocaleString()
       }
-      // list = list.concat(res.data.lists)
       nomore = res.data.lists.length < res.data.pre_page ? 1 : 0
       let item = template('item', {target: res.data.lists});
       setTimeout(function () {
@@ -59,7 +58,7 @@ function scrollPage () {
   if ($(this).scrollTop() + $(this).height() == $(document).height()) {  //滚动到底部执行事件
     console.dir("我到底部了")
     if (nomore >= 1) {
-      alert('没有更多数据了')
+      return
     } else {
       getData()
     }
@@ -69,6 +68,7 @@ function scrollPage () {
     //   $('.modal').hide()
     // }, 2000)
   }
+
   if ($(this).scrollTop() == 0) {  //滚动到头部部执行事件
     console.dir("我到头部了")
     page = 0
@@ -84,6 +84,7 @@ function scrollPage () {
 
 $(function () {
   FastClick.attach(document.body);
+
   // 判断进入
   if (getUrlParam('type') == 'agents') {
     $('.record-tab-tab span:eq(1)').remove()
@@ -96,7 +97,15 @@ $(function () {
 
   getData()
 
-
+  $('form').on('submit', function () {
+    if ($('input').val().length <= 0) {
+      return alert('请输入搜索单号')
+    }
+    page = 0
+    nomore = 0
+    getData({type: 'refresh', out_trade_no: $('input').val()})
+    return false
+  })
 
 // 425834
   $('.record-tab-tab span').click(function () {
@@ -137,11 +146,23 @@ $(function () {
     if (new Date(starData).getTime() > new Date(endData).getTime()) {
       return alert('【截至时间】不能超过【起始时间】')
     }
+    needDate = true
     $('.icon-xiangyou').toggleClass('show')
     $('.choose-time').toggleClass('height')
     page = 0
     nomore = 0
     getData({type: 'refresh', time_start: new Date(starData).getTime() / 1000, time_end: new Date(endData).getTime() / 1000})
+  })
+
+  $('.choose-time-cancel-btn').click(function () {
+    $('#time11').attr('data-year', new Date().getFullYear()).attr('data-month', new Date().getMonth() + 1).attr('data-day', new Date().getDate()).val(`${new Date().getFullYear()}/${new Date().getMonth() + 1}/${new Date().getDate()}`)
+    $('#time22').attr('data-year', new Date().getFullYear()).attr('data-month', new Date().getMonth() + 1).attr('data-day', new Date().getDate()).val(`${new Date().getFullYear()}/${new Date().getMonth() + 1}/${new Date().getDate()}`)
+    needDate = false
+    $('.icon-xiangyou').toggleClass('show')
+    $('.choose-time').toggleClass('height')
+    page = 0
+    nomore = 0
+    getData({type: 'fresh'})
   })
 
   new Mdate('time1', {

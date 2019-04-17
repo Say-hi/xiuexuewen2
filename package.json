@@ -60,6 +60,7 @@
     "gulp-util": "^3.0.7",
     "inquirer": "^1.2.2",
     "minimist": "^1.2.0",
-    "run-sequence": "^1.2.2"
+    "run-sequence": "^1.2.2",
+    "vconsole": "^3.3.0"
   }
 }

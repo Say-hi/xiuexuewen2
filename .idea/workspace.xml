@@ -2,10 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/Mdate-4094e9edd6.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/common-0535da783a.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/iconfont-be24dce2ca.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/Mdate-e81ed9abe0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/ftclick-b2b22cf87d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/iScroll-460da0df27.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/jq3-e7e274a875.3.1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/rem-97dae64c99.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/temp-563daa4282.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/reset-fa7f67953c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/auditing-c7467b7f3b.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/auditingconfirm-d4803dd380.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-f9b4dcad69.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/incomeshop-391d8055f2.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/index-c861a8da2f.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/indexshop-c861a8da2f.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/tixian-690f9fea3d.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/tixianrecord-ebd039bd94.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditing-858f4d1863.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditingconfirm-1daa6859e9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-08eeee6434.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-0eb021ecd0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-13c4075e1e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-154fa3cae1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-17b2dcd8d9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-1b83dc4923.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-2a07d61a06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-2d38f8bcd8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-36059c2fc3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-369ad049cc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-4320d7280b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-556ac3d723.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-5c97708331.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-5cef64350b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-5ea13382e3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-5fa7e3d1a8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-5ffb2a88dd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-628277a50d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-6fcd0deae3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-7281932df8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-7574e42846.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-83e42742b1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-8439298575.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-903211db62.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-927366884a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-aa4a7da7ba.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-ab60ee7e33.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-af1131ba49.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-b0047cd268.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-b38909ddb9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-b993e001d0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-c12e402cd1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-c1e6b1edf7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-c3a00cf292.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-c54636b902.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-c704c03d0f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-c99ac625d1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-d0d8f3b953.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-d1c02fb0fe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-d607fa1c06.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-df40ec21d0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-dfb99fbfc3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-e02b18ce2a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-eee2316a2b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-eff8b967b6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-f6f845bcc2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-fb10f26455.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/incomeshop-edf831b3c9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/tixianrecord-dfbadd3792.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/auditing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/auditingconfirm.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/income.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/incomeshop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/indexshop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/ruler.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/tixian.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/tixianrecord.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/income.html" afterPath="$PROJECT_DIR$/dist/pages/income.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/common/css/common.less" afterPath="$PROJECT_DIR$/src/common/css/common.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/income.js" afterPath="$PROJECT_DIR$/src/js/income.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/tixianrecord.js" afterPath="$PROJECT_DIR$/src/js/tixianrecord.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/income.html" afterPath="$PROJECT_DIR$/src/pages/income.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/index.html" afterPath="$PROJECT_DIR$/src/pages/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/tixian.html" afterPath="$PROJECT_DIR$/src/pages/tixian.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/tixianrecord.html" afterPath="$PROJECT_DIR$/src/pages/tixianrecord.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,8 +112,8 @@
       <file leaf-file-name="income.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/income.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="48" column="51" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="51" />
+            <state relative-caret-position="-18">
+              <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -36,31 +122,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="income.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/income.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="79" column="21" lean-forward="false" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+            <state relative-caret-position="189">
+              <caret line="139" column="8" lean-forward="false" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
+              <folding>
+                <element signature="e#262#626#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tixian.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/tixian.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="59" column="84" lean-forward="false" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="income.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/pages/income.html">
+      <file leaf-file-name="tixianrecord.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/tixianrecord.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1364">
-              <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <state relative-caret-position="440">
+              <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auditing.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/auditing.html">
+      <file leaf-file-name="tixianrecord.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/tixianrecord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
+            <state relative-caret-position="-44">
+              <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/common/css/common.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="104" column="6" lean-forward="false" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -69,18 +179,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-260">
-              <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="1698">
+              <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="income.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="income.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/income.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+            <state relative-caret-position="242">
+              <caret line="44" column="106" lean-forward="false" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="106" />
               <folding>
                 <element signature="e#0#39#0" expanded="false" />
               </folding>
@@ -88,24 +198,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rem.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/js/rem.js">
+      <file leaf-file-name="auditing.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/auditing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="539" lean-forward="false" selection-start-line="0" selection-start-column="539" selection-end-line="0" selection-end-column="539" />
+            <state relative-caret-position="180">
+              <caret line="71" column="34" lean-forward="false" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="34" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jq3.3.1.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/js/jq3.3.1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -113,22 +211,12 @@
       <file leaf-file-name="Mdate.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/common/js/Mdate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="216" column="56" lean-forward="false" selection-start-line="216" selection-start-column="56" selection-end-line="216" selection-end-column="56" />
+            <state relative-caret-position="181">
+              <caret line="210" column="121" lean-forward="false" selection-start-line="210" selection-start-column="121" selection-end-line="210" selection-end-column="121" />
               <folding>
-                <marker date="1555422720848" expanded="true" signature="3063:3069" ph=" " />
-                <marker date="1555422720848" expanded="true" signature="4168:4174" ph=" " />
+                <marker date="1555467078264" expanded="true" signature="3067:3073" ph=" " />
+                <marker date="1555467078264" expanded="true" signature="4172:4178" ph=" " />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ftclick.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/common/js/ftclick.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -168,6 +256,11 @@
       <find>opts</find>
       <find>dateSure</find>
       <find>selectorId</find>
+      <find>choose-time-confirm-btn</find>
+      <find>MdatePlugin</find>
+      <find>modal</find>
+      <find>now</find>
+      <find>form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,28 +285,28 @@
         <option value="$PROJECT_DIR$/src/css/incomeshop.less" />
         <option value="$PROJECT_DIR$/src/pages/incomeshop.html" />
         <option value="$PROJECT_DIR$/src/css/auditing.less" />
-        <option value="$PROJECT_DIR$/src/common/css/common.less" />
         <option value="$PROJECT_DIR$/src/css/auditingconfirm.less" />
-        <option value="$PROJECT_DIR$/src/pages/tixianrecord.html" />
-        <option value="$PROJECT_DIR$/src/pages/tixian.html" />
         <option value="$PROJECT_DIR$/src/pages/ruler.html" />
         <option value="$PROJECT_DIR$/src/pages/auditingconfirm.html" />
         <option value="$PROJECT_DIR$/src/pages/auditing.html" />
         <option value="$PROJECT_DIR$/src/js/auditing.js" />
         <option value="$PROJECT_DIR$/src/js/auditingconfirm.js" />
         <option value="$PROJECT_DIR$/src/js/incomeshop.js" />
-        <option value="$PROJECT_DIR$/src/js/tixianrecord.js" />
         <option value="$PROJECT_DIR$/src/pages/indexshop.html" />
         <option value="$PROJECT_DIR$/src/css/income.less" />
         <option value="$PROJECT_DIR$/src/common/js/rem.js" />
         <option value="$PROJECT_DIR$/src/common/js/request.js" />
-        <option value="$PROJECT_DIR$/src/pages/index.html" />
         <option value="$PROJECT_DIR$/src/common/js/mdate2.js" />
         <option value="$PROJECT_DIR$/dist/pages/auditing.html" />
-        <option value="$PROJECT_DIR$/src/common/js/Mdate.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/src/common/css/common.less" />
         <option value="$PROJECT_DIR$/src/pages/income.html" />
+        <option value="$PROJECT_DIR$/src/common/js/Mdate.js" />
+        <option value="$PROJECT_DIR$/src/pages/index.html" />
+        <option value="$PROJECT_DIR$/src/pages/tixian.html" />
         <option value="$PROJECT_DIR$/src/js/income.js" />
+        <option value="$PROJECT_DIR$/src/pages/tixianrecord.html" />
+        <option value="$PROJECT_DIR$/src/js/tixianrecord.js" />
       </list>
     </option>
   </component>
@@ -234,9 +327,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="394" />
-    <option name="y" value="37" />
-    <option name="width" value="1573" />
+    <option name="x" value="447" />
+    <option name="y" value="30" />
+    <option name="width" value="1472" />
     <option name="height" value="999" />
   </component>
   <component name="ProjectView">
@@ -316,6 +409,140 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vconsole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vconsole" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -333,15 +560,15 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\绣学问-公众号3\src\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\绣学问-公众号3\src\common\js" />
       <recent name="F:\绣学问-公众号3\src\js" />
       <recent name="F:\绣学问-公众号3\src\css" />
       <recent name="F:\绣学问-公众号3\src\pages" />
       <recent name="F:\绣学问-公众号3\dist\common\js" />
-      <recent name="F:\绣学问-公众号3\src\common\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\绣学问-公众号3\src\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -417,12 +644,12 @@
       <updated>1554866252975</updated>
       <workItem from="1554866255131" duration="43600000" />
       <workItem from="1555031268470" duration="13991000" />
-      <workItem from="1555401034984" duration="12676000" />
+      <workItem from="1555401034984" duration="19483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70267000" />
+    <option name="totallyTimeSpent" value="77074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -434,11 +661,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="394" y="37" width="1573" height="999" extended-state="0" />
+    <frame x="447" y="30" width="1472" height="999" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15635179" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16736402" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -470,7 +697,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/common/reset.css" />
     <entry file="file://$PROJECT_DIR$/node_modules/gulp-rev/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-78">
@@ -600,14 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/css/common.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/auditingconfirm.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
@@ -617,22 +835,6 @@
             <element signature="e#670#1061#0" expanded="false" />
             <element signature="e#1270#1706#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tixianrecord.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-159">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tixian.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="33" column="58" lean-forward="false" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -654,18 +856,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/auditing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="71" column="34" lean-forward="false" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/auditingconfirm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -677,31 +872,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/tixianrecord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="72" column="34" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-          <folding>
-            <element signature="n#!!doc;n#getUrlParam#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/index.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/income.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2552">
-          <caret line="135" column="1" lean-forward="false" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="1" />
-          <folding>
-            <element signature="e#262#626#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,7 +919,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -789,25 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/common/js/Mdate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="216" column="56" lean-forward="false" selection-start-line="216" selection-start-column="56" selection-end-line="216" selection-end-column="56" />
-          <folding>
-            <marker date="1555422720848" expanded="true" signature="3063:3069" ph=" " />
-            <marker date="1555422720848" expanded="true" signature="4168:4174" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/pages/income.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1364">
@@ -824,10 +980,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/vconsole.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/js/Mdate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="210" column="121" lean-forward="false" selection-start-line="210" selection-start-column="121" selection-end-line="210" selection-end-column="121" />
+          <folding>
+            <marker date="1555467078264" expanded="true" signature="3067:3073" ph=" " />
+            <marker date="1555467078264" expanded="true" signature="4172:4178" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/income.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="139" column="8" lean-forward="false" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="8" />
+          <folding>
+            <element signature="e#262#626#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/css/common.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="104" column="6" lean-forward="false" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/auditing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="71" column="34" lean-forward="false" selection-start-line="71" selection-start-column="2" selection-end-line="71" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tixian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="59" column="84" lean-forward="false" selection-start-line="59" selection-start-column="84" selection-end-line="59" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1698">
+          <caret line="128" column="37" lean-forward="false" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tixianrecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/income.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="48" column="51" lean-forward="false" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="51" />
+        <state relative-caret-position="-18">
+          <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -837,8 +1062,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/income.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        <state relative-caret-position="242">
+          <caret line="44" column="106" lean-forward="false" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="106" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/tixianrecord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
           <folding>
             <element signature="e#0#39#0" expanded="false" />
           </folding>
