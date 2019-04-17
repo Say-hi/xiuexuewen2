@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/auditing.html" afterPath="$PROJECT_DIR$/dist/pages/auditing.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/auditingconfirm.html" afterPath="$PROJECT_DIR$/dist/pages/auditingconfirm.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/income.html" afterPath="$PROJECT_DIR$/dist/pages/income.html" />
@@ -11,7 +12,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/ruler.html" afterPath="$PROJECT_DIR$/dist/pages/ruler.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/tixian.html" afterPath="$PROJECT_DIR$/dist/pages/tixian.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/tixianrecord.html" afterPath="$PROJECT_DIR$/dist/pages/tixianrecord.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/income.less" afterPath="$PROJECT_DIR$/src/css/income.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/income.js" afterPath="$PROJECT_DIR$/src/js/income.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="income.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="income.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/income.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="519">
-              <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="365">
+              <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -82,6 +83,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="income.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/income.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="103" column="14" lean-forward="false" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#39#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="tixianrecord.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/tixianrecord.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,16 +122,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="576">
               <caret line="64" column="26" lean-forward="false" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auditing.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/auditing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="858">
-              <caret line="60" column="50" lean-forward="false" selection-start-line="60" selection-start-column="50" selection-end-line="60" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -217,10 +220,10 @@
         <option value="$PROJECT_DIR$/src/pages/tixianrecord.html" />
         <option value="$PROJECT_DIR$/src/pages/tixian.html" />
         <option value="$PROJECT_DIR$/src/pages/index.html" />
-        <option value="$PROJECT_DIR$/src/js/income.js" />
         <option value="$PROJECT_DIR$/src/js/tixianrecord.js" />
         <option value="$PROJECT_DIR$/src/pages/income.html" />
         <option value="$PROJECT_DIR$/src/css/income.less" />
+        <option value="$PROJECT_DIR$/src/js/income.js" />
       </list>
     </option>
   </component>
@@ -558,12 +561,12 @@
       <updated>1554866252975</updated>
       <workItem from="1554866255131" duration="43600000" />
       <workItem from="1555031268470" duration="13991000" />
-      <workItem from="1555401034984" duration="21430000" />
+      <workItem from="1555401034984" duration="21758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79021000" />
+    <option name="totallyTimeSpent" value="79349000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -880,16 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/income.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#39#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/auditing.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1562">
@@ -985,9 +978,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/income.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        <state relative-caret-position="365">
+          <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/income.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="103" column="14" lean-forward="false" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

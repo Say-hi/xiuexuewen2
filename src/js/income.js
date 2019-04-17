@@ -101,6 +101,7 @@ $(function () {
     if ($('input').val().length <= 0) {
       return alert('请输入搜索单号')
     }
+    $('input').blur()
     page = 0
     nomore = 0
     getData({type: 'refresh', out_trade_no: $('input').val()})
