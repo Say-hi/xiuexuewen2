@@ -92,6 +92,10 @@ $(function () {
   } else {
     $('.toexcel').remove()
   }
+  if (getUrlParam('i')) {
+    tabIndex = getUrlParam('i')
+    $(".record-tab-tab span").removeClass('c2ca2f2').eq(getUrlParam('i')).addClass('c2ca2f2')
+  }
   $('#time11').val(starData)
   $('#time22').val(endData)
 
