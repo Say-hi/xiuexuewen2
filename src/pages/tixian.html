@@ -18,6 +18,7 @@
     <!--ftclick.js-->
     <script src="../common/js/ftclick.js"></script>
 
+
 </head>
 <body>
 
@@ -46,49 +47,37 @@
 </html>
 <!--jq-->
 <script src="../common/js/jq3.3.1.js"></script>
-<script>
-  let baseDomain = 'https://teach.idwenshi.com/teach/api/web/index.php'
-  let max_money = 0
-    $(function () {
-      $('#back').click(function () {
-        window.history.back();
-      })
-      function getMoney () {
-        $('.modal').show()
-//        $.ajax({
-//          type:'POST',
-//          url: `${baseDomain}/user/info`,
-//          headers: {
-//            sss: 123
-//          },
-//          data: {
-//            uid: localStorage.getItem('pub_id')
-//          },
-//          success (res) {
-//            console.log(res)
-//          }
-//        })
-        $.post(`${baseDomain}/user/info`, {uid: localStorage.getItem('pub_id')}, function (res) {
-          max_money = res.data.mall_total_fee
-          $('input').attr('placeholder', `可提现收益${res.data.mall_total_fee}元`).val('')
-          $('.modal').hide()
-        })
-      }
-      getMoney()
-      $('.now').click(function () {
-        let out_money = ($('input').val() * 1).toFixed(2)
-        if (!out_money) {
-          return alert('请输入提现金额')
-        } else if (out_money > max_money) {
-          return alert('提现金额超出最大可提现收益')
-        } else {
-          $.post(`${baseDomain}/user/cash`, {uid: localStorage.getItem('mini_id'), amount: out_money}, function (res) {
-            alert(res.desc)
-            getMoney()
-          })
-        }
-      })
-    })
+<script src="../js/tixian.js"></script>
+<!--<script>-->
+  <!--let baseDomain = 'https://teach.idwenshi.com/teach/api/web/index.php'-->
+  <!--let max_money = 0-->
+    <!--$(function () {-->
+      <!--$('#back').click(function () {-->
+        <!--window.history.back();-->
+      <!--})-->
+      <!--function getMoney () {-->
+        <!--$('.modal').show()-->
+        <!--$.post(`${baseDomain}/user/info`, {uid: localStorage.getItem('pub_id')}, function (res) {-->
+          <!--max_money = res.data.mall_total_fee-->
+          <!--$('input').attr('placeholder', `可提现收益${res.data.mall_total_fee}元`).val('')-->
+          <!--$('.modal').hide()-->
+        <!--})-->
+      <!--}-->
+      <!--getMoney()-->
+      <!--$('.now').click(function () {-->
+        <!--let out_money = ($('input').val() * 1).toFixed(2)-->
+        <!--if (!out_money) {-->
+          <!--return alert('请输入提现金额')-->
+        <!--} else if (out_money > max_money) {-->
+          <!--return alert('提现金额超出最大可提现收益')-->
+        <!--} else {-->
+          <!--$.post(`${baseDomain}/user/cash`, {uid: localStorage.getItem('mini_id'), amount: out_money}, function (res) {-->
+            <!--alert(res.desc)-->
+            <!--getMoney()-->
+          <!--})-->
+        <!--}-->
+      <!--})-->
+    <!--})-->
 
-</script>
+<!--</script>-->
 

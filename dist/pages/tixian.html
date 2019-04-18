@@ -1,42 +1,83 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><meta http-equiv="X-UA-Compatible" content="ie=edge"><title>提现</title><link rel="stylesheet" href="../common/reset-fa7f67953c.css"><link rel="stylesheet" href="../common/css/common-6ad6114229.css"><link rel="stylesheet" href="../common/css/iconfont-be24dce2ca.css"><link rel="stylesheet" href="../css/tixian-690f9fea3d.css"><script src="../common/js/rem-97dae64c99.js"></script><script src="../common/js/ftclick-b2b22cf87d.js"></script></head><body><div class="bgfff pb30 mt20"><div class="jilu p030 c444 f28 lh88 mt20 bgfff"><span class="need-left fw7">提现方式</span> <span class="c2ca2f2">公众号红包</span></div><div class="user-input-area p030"><span class="f58 c444 fw7">￥</span> <input class="user-input lh88 flex1" type="number" placeholder="可提现收益0元"></div></div><a href="./ruler.html"><p class="c2ca2f2 tar f28 p20">提现说明</p></a><div class="p30"></div><div class="tac f34 cfff fw7 p20 tixian now">立刻提现</div><div id="back" class="tac f34 c2ca2f2 fw7 p20 tixian cancel mt30">取消</div><div class="modal"><div class="modal-container tac"><img src="../images/loading.gif" alt=""></div></div></body></html><script src="../common/js/jq3-e7e274a875.3.1.js"></script><script>let baseDomain = 'https://teach.idwenshi.com/teach/api/web/index.php'
-  let max_money = 0
-    $(function () {
-      $('#back').click(function () {
-        window.history.back();
-      })
-      function getMoney () {
-        $('.modal').show()
-//        $.ajax({
-//          type:'POST',
-//          url: `${baseDomain}/user/info`,
-//          headers: {
-//            sss: 123
-//          },
-//          data: {
-//            uid: localStorage.getItem('pub_id')
-//          },
-//          success (res) {
-//            console.log(res)
-//          }
-//        })
-        $.post(`${baseDomain}/user/info`, {uid: localStorage.getItem('pub_id')}, function (res) {
-          max_money = res.data.mall_total_fee
-          $('input').attr('placeholder', `可提现收益${res.data.mall_total_fee}元`).val('')
-          $('.modal').hide()
-        })
-      }
-      getMoney()
-      $('.now').click(function () {
-        let out_money = ($('input').val() * 1).toFixed(2)
-        if (!out_money) {
-          return alert('请输入提现金额')
-        } else if (out_money > max_money) {
-          return alert('提现金额超出最大可提现收益')
-        } else {
-          $.post(`${baseDomain}/user/cash`, {uid: localStorage.getItem('mini_id'), amount: out_money}, function (res) {
-            alert(res.desc)
-            getMoney()
-          })
-        }
-      })
-    })</script>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>提现</title>
+    <!--重置css-->
+    <link rel="stylesheet" href="../common/reset-fa7f67953c.css">
+    <!--公共css-->
+    <link rel="stylesheet" href="../common/css/common-6ad6114229.css">
+    <link rel="stylesheet" href="../common/css/iconfont-be24dce2ca.css">
+    <!--样式表-->
+    <link rel="stylesheet" href="../css/tixian-690f9fea3d.css">
+    <!--rem-->
+    <script src="../common/js/rem-97dae64c99.js"></script>
+    <!--ftclick.js-->
+    <script src="../common/js/ftclick-b2b22cf87d.js"></script>
+
+
+</head>
+<body>
+
+<div class="bgfff pb30 mt20">
+    <div class="jilu p030 c444 f28 lh88 mt20 bgfff">
+        <span class="need-left fw7">提现方式</span>
+        <span class="c2ca2f2">公众号红包</span>
+    </div>
+    <div class="user-input-area p030">
+        <span class="f58 c444 fw7">￥</span>
+        <input class="user-input lh88 flex1" type="number" placeholder="可提现收益0元">
+    </div>
+</div>
+<a href="./ruler.html"><p class="c2ca2f2 tar f28 p20">提现说明</p></a>
+<div class="p30"></div>
+<div class="tac f34 cfff fw7 p20 tixian now">立刻提现</div>
+
+<div id="back" class="tac f34 c2ca2f2 fw7 p20 tixian cancel mt30">取消</div>
+
+<div class="modal">
+    <div class="modal-container tac">
+        <img src="../images/loading.gif" alt="">
+    </div>
+</div>
+</body>
+</html>
+<!--jq-->
+<script src="../common/js/jq3-e7e274a875.3.1.js"></script>
+<script src="../js/tixian-cc0aba532d.js"></script>
+<!--<script>-->
+  <!--let baseDomain = 'https://teach.idwenshi.com/teach/api/web/index.php'-->
+  <!--let max_money = 0-->
+    <!--$(function () {-->
+      <!--$('#back').click(function () {-->
+        <!--window.history.back();-->
+      <!--})-->
+      <!--function getMoney () {-->
+        <!--$('.modal').show()-->
+        <!--$.post(`${baseDomain}/user/info`, {uid: localStorage.getItem('pub_id')}, function (res) {-->
+          <!--max_money = res.data.mall_total_fee-->
+          <!--$('input').attr('placeholder', `可提现收益${res.data.mall_total_fee}元`).val('')-->
+          <!--$('.modal').hide()-->
+        <!--})-->
+      <!--}-->
+      <!--getMoney()-->
+      <!--$('.now').click(function () {-->
+        <!--let out_money = ($('input').val() * 1).toFixed(2)-->
+        <!--if (!out_money) {-->
+          <!--return alert('请输入提现金额')-->
+        <!--} else if (out_money > max_money) {-->
+          <!--return alert('提现金额超出最大可提现收益')-->
+        <!--} else {-->
+          <!--$.post(`${baseDomain}/user/cash`, {uid: localStorage.getItem('mini_id'), amount: out_money}, function (res) {-->
+            <!--alert(res.desc)-->
+            <!--getMoney()-->
+          <!--})-->
+        <!--}-->
+      <!--})-->
+    <!--})-->
+
+<!--</script>-->
+

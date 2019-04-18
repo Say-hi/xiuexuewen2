@@ -19,6 +19,7 @@
     <script src="../common/js/ftclick.js"></script>
 
 
+
 </head>
 <body>
 <!--顶部卡片-->
@@ -90,51 +91,51 @@
 </html>
 <!--jq-->
 <script src="../common/js/jq3.3.1.js"></script>
-<script>
-    var baseDomain = 'https://teach.idwenshi.com/teach/api/web/index.php'
-    var userInfo = null
-    function getUrlParam(name) {
-      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
-      var r = window.location.search.substr(1).match(reg);
-      if (r != null) return decodeURI(r[2]); return null;
-    }
-
-    function changeShow () {
-      $('#user_see').toggleClass('icon-yanjing')
-      if (!$('#user_see').hasClass('icon-yanjing')) {
-        localStorage.setItem('seedata', 0)
-        $('#user_money').html('****')
-        $('#user_out_money').html('****')
-        $('#today_in').html('****')
-        $('#ready_in').html('****')
-      } else {
-        localStorage.setItem('seedata', 1)
-        $('#user_money').html(userInfo.mall_put_money)
-        $('#user_out_money').html(userInfo.appear)
-//        $('#user_out_money').html('123')
-        $('#today_in').html(userInfo.mall_total_fee)
-        $('#ready_in').html(userInfo.wait_profit)
-      }
-    }
-    $(function () {
-      $.post(`${baseDomain}/user/info`, {uid: getUrlParam('uid') || 2}, function (res) {
-        userInfo = res.data
-        localStorage.setItem('pub_id', res.data.pub_id)
-        localStorage.setItem('pub_openid', res.data.pub_openid)
-        localStorage.setItem('unionid', res.data.unionid)
-        localStorage.setItem('mini_id', res.data.mini_id)
-        localStorage.setItem('mini_openid', res.data.mini_openid)
-        if (localStorage.getItem('seedata') == 1) {
-          $('#user_see').removeClass('icon-yanjing')
-          changeShow()
-        } else {
-          changeShow()
-        }
-      })
-      FastClick.attach(document.body);
-      $('#user_see').click(function () {
-        changeShow()
-      })
-    })
-</script>
+<script src="../js/index.js"></script>
+<!--<script type="text/javascript">-->
+    <!--var baseDomain = 'https://teach.idwenshi.com/teach/api/web/index.php'-->
+    <!--var userInfo = null-->
+    <!--function getUrlParam(name) {-->
+      <!--var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");-->
+      <!--var r = window.location.search.substr(1).match(reg);-->
+      <!--if (r != null) return decodeURI(r[2]); return null;-->
+    <!--}-->
+    <!--function changeShow () {-->
+      <!--$('#user_see').toggleClass('icon-yanjing')-->
+      <!--if (!$('#user_see').hasClass('icon-yanjing')) {-->
+        <!--localStorage.setItem('seedata', 0)-->
+        <!--$('#user_money').html('****')-->
+        <!--$('#user_out_money').html('****')-->
+        <!--$('#today_in').html('****')-->
+        <!--$('#ready_in').html('****')-->
+      <!--} else {-->
+        <!--localStorage.setItem('seedata', 1)-->
+        <!--$('#user_money').html(userInfo.mall_put_money)-->
+        <!--$('#user_out_money').html(userInfo.appear)-->
+<!--//        $('#user_out_money').html('123')-->
+        <!--$('#today_in').html(userInfo.mall_total_fee)-->
+        <!--$('#ready_in').html(userInfo.wait_profit)-->
+      <!--}-->
+    <!--}-->
+    <!--$(function () {-->
+      <!--$.post(`${baseDomain}/user/info`, {uid: getUrlParam('uid') || 2}, function (res) {-->
+        <!--userInfo = res.data-->
+        <!--localStorage.setItem('pub_id', res.data.pub_id)-->
+        <!--localStorage.setItem('pub_openid', res.data.pub_openid)-->
+        <!--localStorage.setItem('unionid', res.data.unionid)-->
+        <!--localStorage.setItem('mini_id', res.data.mini_id)-->
+        <!--localStorage.setItem('mini_openid', res.data.mini_openid)-->
+        <!--if (localStorage.getItem('seedata') == 1) {-->
+          <!--$('#user_see').removeClass('icon-yanjing')-->
+          <!--changeShow()-->
+        <!--} else {-->
+          <!--changeShow()-->
+        <!--}-->
+      <!--})-->
+      <!--FastClick.attach(document.body);-->
+      <!--$('#user_see').click(function () {-->
+        <!--changeShow()-->
+      <!--})-->
+    <!--})-->
+<!--</script>-->
 
