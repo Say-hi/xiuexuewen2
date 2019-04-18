@@ -39,6 +39,9 @@
 <script src="../common/js/temp.js"></script>
 <script id="item" type="text/html">
     {{each target}}
+    {{if $value.status == 1}}
+    <a href="./auditingconfirm.html?num={{$value.order_num}}&uid={{$value.uid}}">
+    {{/if }}
         <div class="bgfff mb30 pb30 item">
             <div class="jilu p30 c999 f28 bgfff">
                 <span>申请单号： <span class="">{{ $value.order_num }}</span></span>
@@ -48,20 +51,28 @@
                 <p class="fw7 {{$value.status != 2 ? 'c999' : 'c444'}}">¥{{$value.amount}}</p>
             </div>
             <div class="center-flex f28 c999 p030 ">
-                <span class="f28 c999">提现方式：{{$value.tid || '红包'}}</span>
-                {{if !$type}}
+                <span class="f28 c999">提现方式：{{$value.tid ? $value.tid == 1 ? '红包' : '零钱' : '红包'}}</span>
+                {{if !type}}
                 <span >{{$value.create_time}}</span>
                 {{/if}}
             </div>
-            {{if $type}}
-            <div class="f28 c999 p030 mt20">
-                <span>提交时间：{{$value.create_time}}</span>
-            </div>
-            <div class="f28 c999 p030 mt20">
-                <span>审核时间：{{$value.status == 1 ? '审核中' : $value.finish_time}}</span>
-            </div>
+            {{if type}}
+                <div class="f28 c999 p030 mt20">
+                    <span>提交时间：{{$value.create_time}}</span>
+                </div>
+                <div class="f28 c999 p030 mt20">
+                    <span>审核时间：{{$value.status == 1 ? '审核中' : $value.finish_time}}</span>
+                </div>
+                {{if $value.status == 3}}
+                <div class="f28 c999 p030 mt20">
+                    <span>拒绝原因：{{$value.reason}}</span>
+                </div>
+                {{/if}}
             {{/if}}
         </div>
+    {{if $value.status == 1}}
+    </a>
+    {{/if}}
     {{/each}}
 </script>
 

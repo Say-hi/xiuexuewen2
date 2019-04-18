@@ -8,6 +8,7 @@ let page = 0
 let nomore = 0
 let needDate = false
 let str = "<div class='tac f28 c999'>--- 哎呀，没有相关数据了 ---</div>"
+let emailCheck = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 function getUrlParam(name) {
   let reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
   let r = window.location.search.substr(1).match(reg);
@@ -20,7 +21,7 @@ function getData(obj = {}) {
   $('.modal').show();
   return new Promise((resolve, reject) => {
     $.post(`${baseDomain}/user/profit-detail`, {
-      uid: localStorage.getItem('mini_id'),
+      uid: getUrlParam('id') || localStorage.getItem('mini_id'),
       where: tabIndex,
       page: ++page,
       out_trade_no: obj.out_trade_no || null,
@@ -33,7 +34,7 @@ function getData(obj = {}) {
       }
       nomore = res.data.lists.length < res.data.pre_page ? 1 : 0
       let item = template('item', {target: res.data.lists});
-      setTimeout(function () {
+      // setTimeout(function () {
         if (!res.data.lists.length) {
           if (page == 1) {
             $('.container').html(str)
@@ -45,7 +46,7 @@ function getData(obj = {}) {
           if (nomore >= 1) {$('.container').append("<div class='tac f28 c999 p20'>--- 别扯了，到底了 ---</div>")}
         }
         $('.modal').hide();
-      }, 1000)
+      // }, 1000)
       resolve(res)
     })
   })
@@ -102,10 +103,10 @@ $(function () {
   getData()
 
   $('form').on('submit', function () {
-    if ($('input').val().length <= 0) {
+    if ($('.search-area input').val().length <= 0) {
       return alert('请输入搜索单号')
     }
-    $('input').blur()
+    $('.search-area input').blur()
     page = 0
     nomore = 0
     getData({type: 'refresh', out_trade_no: $('input').val()})
@@ -133,7 +134,19 @@ $(function () {
   })
 
   $('.confirm').click(function () {
-    $('.send-email-mask').hide()
+    if (!emailCheck.test($('.sem-container input').val())) return alert('请填写有效的邮箱地址')
+    $.post(`${baseDomain}/shop/excel`, {
+      uid: getUrlParam('id'),
+      where: tabIndex,
+      out_trade_no: $('.sem-container input').val(),
+      time_start: needDate ? new Date(starData).getTime() / 1000 : '',
+      time_end: needDate ? new Date(endData).getTime() / 1000 : ''
+    }, function (res) {
+      if (res.status == 400) {
+        alert(res.desc)
+      }
+      $('.send-email-mask').hide()
+    })
   })
 
   $(window).scroll(scrollPage)
@@ -141,7 +154,6 @@ $(function () {
   $('.item').click(function () {
     console.log($(this).html())
   })
-
   $('.choose-btn').click(function () {
     $('.icon-xiangyou').toggleClass('show')
     $('.choose-time').toggleClass('height')

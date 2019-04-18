@@ -7,6 +7,7 @@ let page = 0
 let nomore = 0
 let str = "<div class='tac f28 c999'>--- 哎呀,没有相关数据 ---</div>"
 let uid = 0
+let type = 'user'
 function getUrlParam(name) {
   var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
   var r = window.location.search.substr(1).match(reg);
@@ -21,18 +22,27 @@ function getData(obj = {}) {
   }
   $('.modal').show();
   return new Promise((resolve, reject) => {
-    $.post(`${baseDomain}/user/cash-detail`, {
-      uid: getUrlParam('id') || localStorage.getItem('mini_id'),
-      status: tabIndex,
-      page: ++page
-    }, function (res) {
-      for (let v of res.data.lists) {
-        v.create_time = new Date(v.create_time * 1000).toLocaleString()
-        v.finish_time = new Date(v.finish_time * 1000).toLocaleString()
+    $.post(`${baseDomain}${type == 'user' ? '/user/cash-detail' : '/shop/appear-list'}`, type == 'user' ? {
+        uid: getUrlParam('id') || localStorage.getItem('mini_id'),
+        status: tabIndex,
+        page: ++page
+      } : {
+        mid: localStorage.getItem('mid'),
+        status: tabIndex,
+        uid: getUrlParam('id'),
+        page: ++page
+      } , function (res) {
+      try {
+        for (let v of res.data.lists) {
+          v.create_time = new Date(v.create_time * 1000).toLocaleString()
+          v.finish_time = new Date(v.finish_time * 1000).toLocaleString()
+        }
+      } catch (err) {
+        throw err
       }
       nomore = res.data.lists.length < res.data.pre_page ? 1 : 0
-      let item = template('item', {target: res.data.lists, type: getUrlParam('id') >= 1});
-      setTimeout(function () {
+      let item = template('item', {target: res.data.lists, type: type == 'agents'});
+      // setTimeout(function () {
         if (!res.data.lists.length) {
           if (page == 1) {
             $('.container').html(str)
@@ -44,7 +54,7 @@ function getData(obj = {}) {
           if (nomore >= 1) {$('.container').append("<div class='tac f28 c999 p20'>--- 别扯了，到底了 ---</div>")}
         }
         $('.modal').hide();
-      }, 1000)
+      // }, 1000)
       resolve(res)
     })
   })
@@ -68,11 +78,18 @@ function scrollPage () {
 $(function () {
   FastClick.attach(document.body);
   $(window).scroll(scrollPage);
-
+  type = getUrlParam('type') || 'user'
   if (getUrlParam('type') == 'agents') {
-    $('title').html(getUrlParam('id'))
+    $('title').html('提现记录列表')
+  }
+  try {
+    tabIndex = getUrlParam('index') || 0
+    $('.record-tab span').removeClass('c2ca2f2').eq(tabIndex).addClass('c2ca2f2');
+  } catch (err) {
+    throw  err
   }
   getData({type: 'refresh'})
+
   $('.record-tab span').click(function () {
     $('.record-tab span').removeClass('c2ca2f2');
     $(this).addClass('c2ca2f2');

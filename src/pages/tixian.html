@@ -55,6 +55,19 @@
       })
       function getMoney () {
         $('.modal').show()
+//        $.ajax({
+//          type:'POST',
+//          url: `${baseDomain}/user/info`,
+//          headers: {
+//            sss: 123
+//          },
+//          data: {
+//            uid: localStorage.getItem('pub_id')
+//          },
+//          success (res) {
+//            console.log(res)
+//          }
+//        })
         $.post(`${baseDomain}/user/info`, {uid: localStorage.getItem('pub_id')}, function (res) {
           max_money = res.data.mall_total_fee
           $('input').attr('placeholder', `可提现收益${res.data.mall_total_fee}元`).val('')

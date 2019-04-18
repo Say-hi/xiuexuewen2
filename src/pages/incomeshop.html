@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>收益明细</title>
+    <title>收益记录</title>
     <!--重置css-->
     <link rel="stylesheet" href="../common/reset.css">
     <!--公共css-->
@@ -24,7 +24,9 @@
     <div class="search pr bgcfff p2030">
         <div class="f28 search-area p020">
             <span class="font_family icon-sousuo f32"></span>
-            <input placeholder="请输入用户名" type="text">
+            <form action="#">
+                <input placeholder="请输入用户名" type="search">
+            </form>
         </div>
     </div>
 </div>
@@ -50,25 +52,25 @@
             <div class="agents">
                 <a href="./{{type == 'shouyi' ? 'income' : 'tixianrecord'}}.html?id={{$value.id || $index}}&type=agents">
                     <p class="f28 c999 p30 a-top">
-                        <span class="c444">{{$value.id || $index}}</span>
+                        <span class="c444">分销商ID: {{$value.id || '未知用户'}}</span>
                         <span class="">查看{{type == 'shouyi' ? '收益' : '提现'}}明细<span class="font_family icon-xiangyou"></span></span>
                     </p>
                 </a>
                 <div class="p30 a-center c999 f24">
                     <div>
                         <p>可提现收益(元)</p>
-                        <p>88</p>
+                        <p>{{$value.mall_total_fee || 0.00}}</p>
                     </div>
                     <div class="ac-center">
                         <p>待到账收益(元)</p>
-                        <p>88</p>
+                        <p>{{$value.wait_profit || 0.00}}</p>
                     </div>
                     <div>
                         <p>已提现收益(元)</p>
-                        <p>88</p>
+                        <p>{{$value.mall_appear_fee || 0.00}}</p>
                     </div>
                 </div>
-                <div class="p30 f24 c999">累计总收益(元)：<span class="c444">1068.80</span></div>
+                <div class="p30 f24 c999">累计总收益(元)：<span class="c444">{{$value.mall_total_fee * 1 + $value.mall_appear_fee * 1}}</span></div>
             </div>
         {{/each}}
     {{else}}
