@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/auditing-858f4d1863.js" afterPath="$PROJECT_DIR$/dist/js/auditing-858f4d1863.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/auditingconfirm-b721d69e83.js" afterPath="$PROJECT_DIR$/dist/js/auditingconfirm-b721d69e83.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/income-3c49808c3a.js" afterPath="$PROJECT_DIR$/dist/js/income-3c49808c3a.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/incomeshop-4c5f6ea42b.js" afterPath="$PROJECT_DIR$/dist/js/incomeshop-4c5f6ea42b.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/index-5b6fb392ad.js" afterPath="$PROJECT_DIR$/dist/js/index-5b6fb392ad.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/indexshop-eec5ddbb90.js" afterPath="$PROJECT_DIR$/dist/js/indexshop-eec5ddbb90.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/tixian-cc0aba532d.js" afterPath="$PROJECT_DIR$/dist/js/tixian-cc0aba532d.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/tixianrecord-5ccb409506.js" afterPath="$PROJECT_DIR$/dist/js/tixianrecord-5ccb409506.js" />
-    </list>
+    <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -48,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tixianrecord-5ccb409506.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tixianrecord-5ccb409506.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/js/tixianrecord-5ccb409506.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
@@ -58,10 +48,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="286">
               <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
               <folding />
             </state>
@@ -247,8 +237,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="690" />
-    <option name="y" value="34" />
+    <option name="x" value="634" />
+    <option name="y" value="43" />
     <option name="width" value="1214" />
     <option name="height" value="997" />
   </component>
@@ -326,6 +316,10 @@
               <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -342,6 +336,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -446,12 +454,12 @@
       <workItem from="1555031268470" duration="13991000" />
       <workItem from="1555401034984" duration="26257000" />
       <workItem from="1555549158607" duration="17091000" />
-      <workItem from="1555725894761" duration="979000" />
+      <workItem from="1555725894761" duration="1351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101918000" />
+    <option name="totallyTimeSpent" value="102290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,7 +471,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="690" y="34" width="1214" height="997" extended-state="0" />
+    <frame x="634" y="43" width="1214" height="997" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -804,14 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -880,6 +880,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="0" column="5165" lean-forward="true" selection-start-line="0" selection-start-column="5165" selection-end-line="0" selection-end-column="5165" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
           <folding />
         </state>
       </provider>
