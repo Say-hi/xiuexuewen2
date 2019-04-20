@@ -132,13 +132,13 @@ $(function () {
   $('.cancel').click(function () {
     $('.send-email-mask').hide()
   })
-
   $('.confirm').click(function () {
     if (!emailCheck.test($('.sem-container input').val())) return alert('请填写有效的邮箱地址')
     $.post(`${baseDomain}/shop/excel`, {
       uid: getUrlParam('id'),
       where: tabIndex,
-      out_trade_no: $('.sem-container input').val(),
+      email: $('.sem-container input').val(),
+      out_trade_no: $('.search-area input').val(),
       time_start: needDate ? new Date(starData).getTime() / 1000 : '',
       time_end: needDate ? new Date(endData).getTime() / 1000 : ''
     }, function (res) {
