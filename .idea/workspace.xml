@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/auditing.html" afterPath="$PROJECT_DIR$/dist/pages/auditing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/auditingconfirm.html" afterPath="$PROJECT_DIR$/dist/pages/auditingconfirm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/income.html" afterPath="$PROJECT_DIR$/dist/pages/income.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/incomeshop.html" afterPath="$PROJECT_DIR$/dist/pages/incomeshop.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/index.html" afterPath="$PROJECT_DIR$/dist/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/indexshop.html" afterPath="$PROJECT_DIR$/dist/pages/indexshop.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/ruler.html" afterPath="$PROJECT_DIR$/dist/pages/ruler.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/tixian.html" afterPath="$PROJECT_DIR$/dist/pages/tixian.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/tixianrecord.html" afterPath="$PROJECT_DIR$/dist/pages/tixianrecord.html" />
-    </list>
+    <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -42,7 +31,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="-44">
               <caret line="100" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -84,8 +73,8 @@
       <file leaf-file-name="404.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/404.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="803">
-              <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="341">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -529,12 +518,12 @@
       <workItem from="1555401034984" duration="26257000" />
       <workItem from="1555549158607" duration="17091000" />
       <workItem from="1555725894761" duration="3175000" />
-      <workItem from="1555745451725" duration="2979000" />
+      <workItem from="1555745451725" duration="3154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107093000" />
+    <option name="totallyTimeSpent" value="107268000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -955,7 +944,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="-44">
           <caret line="100" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -965,8 +954,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="341">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
