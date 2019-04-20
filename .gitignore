@@ -9,6 +9,7 @@ rev-css
 rev-js
 html
 src/**
+src
 # Optional npm cache directory
 .npm
 
