@@ -28,8 +28,7 @@
     let url = 'https://teach.idwenshi.com/teach/teach/web/index.php/user/explain'
     $(function () {
       $.post(url, function (res) {
-        console.log(1)
-        console.log(res)
+        $('div').html(res.data.desc)
       })
     })
 </script>

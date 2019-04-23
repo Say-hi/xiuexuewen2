@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditingconfirm-352dff046a.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditingconfirm-b721d69e83.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditingconfirm-ca1d087d08.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/404.html" afterPath="$PROJECT_DIR$/dist/pages/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/auditing.html" afterPath="$PROJECT_DIR$/dist/pages/auditing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/auditingconfirm.html" afterPath="$PROJECT_DIR$/dist/pages/auditingconfirm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/income.html" afterPath="$PROJECT_DIR$/dist/pages/income.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/incomeshop.html" afterPath="$PROJECT_DIR$/dist/pages/incomeshop.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/index.html" afterPath="$PROJECT_DIR$/dist/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/indexshop.html" afterPath="$PROJECT_DIR$/dist/pages/indexshop.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/ruler.html" afterPath="$PROJECT_DIR$/dist/pages/ruler.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/tixian.html" afterPath="$PROJECT_DIR$/dist/pages/tixian.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/tixianrecord.html" afterPath="$PROJECT_DIR$/dist/pages/tixianrecord.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -88,8 +75,8 @@
       <file leaf-file-name="ruler.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/pages/ruler.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+            <state relative-caret-position="429">
+              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -258,8 +245,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="551" />
-    <option name="y" value="32" />
+    <option name="x" value="852" />
+    <option name="y" value="33" />
     <option name="width" value="1296" />
     <option name="height" value="983" />
   </component>
@@ -499,12 +486,12 @@
       <workItem from="1555549158607" duration="17091000" />
       <workItem from="1555725894761" duration="3175000" />
       <workItem from="1555745451725" duration="4014000" />
-      <workItem from="1555985779388" duration="328000" />
+      <workItem from="1555985779388" duration="656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108456000" />
+    <option name="totallyTimeSpent" value="108784000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -516,7 +503,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="551" y="32" width="1296" height="983" extended-state="0" />
+    <frame x="852" y="33" width="1296" height="983" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -904,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/pages/ruler.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="429">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding />
         </state>
       </provider>
