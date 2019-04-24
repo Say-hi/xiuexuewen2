@@ -1,51 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/Mdate-4094e9edd6.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/common-6ad6114229.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/iconfont-be24dce2ca.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/Mdate-8e0a3a4ee8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/ftclick-b2b22cf87d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/iScroll-460da0df27.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/jq3-e7e274a875.3.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/rem-97dae64c99.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/temp-563daa4282.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/vconsole-260e0d0e3c.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/reset-fa7f67953c.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/auditing-c7467b7f3b.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/auditingconfirm-66b0657958.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-f2f3555756.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/incomeshop-e8c3bee69f.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/index-c861a8da2f.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/indexshop-ba8ae69cf5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/tixian-690f9fea3d.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/tixianrecord-12be497e09.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditing-858f4d1863.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditingconfirm-a00db1a0a9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-3aea602d41.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-7f33f7487b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/incomeshop-4c5f6ea42b.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/index-f64017c388.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/indexshop-936af1a515.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/indexshop-eec5ddbb90.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/tixian-27b120f454.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/tixian-cc0aba532d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/tixianrecord-5ccb409506.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/tixianrecord-79ca5fce02.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/auditing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/auditingconfirm.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/income.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/incomeshop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/indexshop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/ruler.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/tixian.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/tixianrecord.html" afterPath="" />
-    </list>
+    <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -62,21 +18,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <file leaf-file-name="tixian.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/tixian.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auditing.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/auditing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="71" column="17" lean-forward="false" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+            <state relative-caret-position="506">
+              <caret line="49" column="52" lean-forward="false" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -92,6 +38,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="indexshop.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/indexshop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="income.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/income.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,21 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="incomeshop.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="incomeshop.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/incomeshop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="100" column="24" lean-forward="false" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+            <state relative-caret-position="308">
+              <caret line="105" column="34" lean-forward="false" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexshop.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="indexshop.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/indexshop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="330">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -252,16 +208,16 @@
         <option value="$PROJECT_DIR$/src/pages/auditingconfirm.html" />
         <option value="$PROJECT_DIR$/src/pages/income.html" />
         <option value="$PROJECT_DIR$/src/pages/incomeshop.html" />
-        <option value="$PROJECT_DIR$/src/pages/indexshop.html" />
         <option value="$PROJECT_DIR$/src/pages/tixian.html" />
         <option value="$PROJECT_DIR$/src/pages/tixianrecord.html" />
         <option value="$PROJECT_DIR$/src/js/auditing.js" />
         <option value="$PROJECT_DIR$/src/js/auditingconfirm.js" />
         <option value="$PROJECT_DIR$/src/js/income.js" />
-        <option value="$PROJECT_DIR$/src/js/indexshop.js" />
         <option value="$PROJECT_DIR$/src/js/tixian.js" />
         <option value="$PROJECT_DIR$/src/js/tixianrecord.js" />
         <option value="$PROJECT_DIR$/src/js/incomeshop.js" />
+        <option value="$PROJECT_DIR$/src/pages/indexshop.html" />
+        <option value="$PROJECT_DIR$/src/js/indexshop.js" />
       </list>
     </option>
   </component>
@@ -282,9 +238,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="601" />
+    <option name="x" value="541" />
     <option name="y" value="19" />
-    <option name="width" value="1296" />
+    <option name="width" value="1356" />
     <option name="height" value="983" />
   </component>
   <component name="ProjectView">
@@ -379,6 +335,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -488,12 +458,12 @@
       <workItem from="1555725894761" duration="3175000" />
       <workItem from="1555745451725" duration="4014000" />
       <workItem from="1555985779388" duration="1693000" />
-      <workItem from="1556086617707" duration="2239000" />
+      <workItem from="1556086617707" duration="2742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112060000" />
+    <option name="totallyTimeSpent" value="112563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -505,27 +475,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="601" y="19" width="1296" height="983" extended-state="0" />
+    <frame x="541" y="19" width="1356" height="983" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17885533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19650987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24381626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24381626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -814,22 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/indexshop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="83" column="52" lean-forward="false" selection-start-line="83" selection-start-column="52" selection-end-line="83" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tixian.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="49" column="52" lean-forward="false" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -858,14 +812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="86" column="17" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/indexshop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -904,8 +850,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/incomeshop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="100" column="24" lean-forward="false" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+        <state relative-caret-position="308">
+          <caret line="105" column="34" lean-forward="false" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tixian.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="49" column="52" lean-forward="false" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/indexshop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/indexshop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
           <folding />
         </state>
       </provider>
