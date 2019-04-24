@@ -52,7 +52,7 @@
             <div class="agents">
                 <a href="./{{type == 'shouyi' ? 'income' : 'tixianrecord'}}.html?id={{$value.id || $index}}&type=agents">
                     <p class="f28 c999 p30 a-top">
-                        <span class="c444">分销商ID: {{$value.id || '未知用户'}}</span>
+                        <span class="c444">分销商ID: {{$value.id || '未知用户'}}--{{ $value.nickname }}</span>
                         <span class="">查看{{type == 'shouyi' ? '收益' : '提现'}}明细<span class="font_family icon-xiangyou"></span></span>
                     </p>
                 </a>
