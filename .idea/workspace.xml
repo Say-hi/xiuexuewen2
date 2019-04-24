@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/index.html" afterPath="$PROJECT_DIR$/dist/pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/pages/indexshop.html" afterPath="$PROJECT_DIR$/dist/pages/indexshop.html" />
-    </list>
+    <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,40 +21,40 @@
       <file leaf-file-name="tixian.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/tixian.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="49" column="52" lean-forward="false" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="85" column="113" lean-forward="false" selection-start-line="85" selection-start-column="113" selection-end-line="85" selection-end-column="113" />
+            <state relative-caret-position="328">
+              <caret line="39" column="64" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common-6ad6114229.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/common/css/common-6ad6114229.css">
+      <file leaf-file-name="tixianrecord.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/tixianrecord.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="476" lean-forward="false" selection-start-line="0" selection-start-column="473" selection-end-line="0" selection-end-column="476" />
+            <state relative-caret-position="305">
+              <caret line="29" column="68" lean-forward="false" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexshop.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/indexshop.html">
+      <file leaf-file-name="auditingconfirm.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/auditingconfirm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="78" column="38" lean-forward="false" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="58" />
+            <state relative-caret-position="503">
+              <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="income.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/income.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="92" column="4" lean-forward="false" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -66,8 +63,18 @@
       <file leaf-file-name="incomeshop.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/incomeshop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="105" column="34" lean-forward="false" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
+            <state relative-caret-position="374">
+              <caret line="110" column="4" lean-forward="false" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="32" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -83,41 +90,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <file leaf-file-name="tixian.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/tixian.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            <state relative-caret-position="198">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tixianrecord.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tixianrecord.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/tixianrecord.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="264">
+              <caret line="84" column="4" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tixianrecord.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/tixianrecord.html">
+      <file leaf-file-name="auditing.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/auditing.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="77" column="52" lean-forward="false" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="incomeshop.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/incomeshop.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="75" column="12" lean-forward="false" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+            <state relative-caret-position="371">
+              <caret line="71" column="2" lean-forward="false" selection-start-line="71" selection-start-column="2" selection-end-line="77" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -207,6 +204,10 @@
         <option value="$PROJECT_DIR$/src/pages/ruler.html" />
         <option value="$PROJECT_DIR$/dist/pages/ruler.html" />
         <option value="$PROJECT_DIR$/dist/pages/indexshop.html" />
+        <option value="$PROJECT_DIR$/src/js/indexshop.js" />
+        <option value="$PROJECT_DIR$/src/js/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/indexshop.html" />
+        <option value="$PROJECT_DIR$/src/pages/index.html" />
         <option value="$PROJECT_DIR$/src/pages/auditing.html" />
         <option value="$PROJECT_DIR$/src/pages/auditingconfirm.html" />
         <option value="$PROJECT_DIR$/src/pages/income.html" />
@@ -216,13 +217,9 @@
         <option value="$PROJECT_DIR$/src/js/auditing.js" />
         <option value="$PROJECT_DIR$/src/js/auditingconfirm.js" />
         <option value="$PROJECT_DIR$/src/js/income.js" />
+        <option value="$PROJECT_DIR$/src/js/incomeshop.js" />
         <option value="$PROJECT_DIR$/src/js/tixian.js" />
         <option value="$PROJECT_DIR$/src/js/tixianrecord.js" />
-        <option value="$PROJECT_DIR$/src/js/incomeshop.js" />
-        <option value="$PROJECT_DIR$/src/js/indexshop.js" />
-        <option value="$PROJECT_DIR$/src/js/index.js" />
-        <option value="$PROJECT_DIR$/src/pages/indexshop.html" />
-        <option value="$PROJECT_DIR$/src/pages/index.html" />
       </list>
     </option>
   </component>
@@ -503,12 +500,12 @@
       <workItem from="1555725894761" duration="3175000" />
       <workItem from="1555745451725" duration="4014000" />
       <workItem from="1555985779388" duration="1693000" />
-      <workItem from="1556086617707" duration="2944000" />
+      <workItem from="1556086617707" duration="3223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112765000" />
+    <option name="totallyTimeSpent" value="113044000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -734,14 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/ruler.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/pages/ruler.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -785,98 +774,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/common/css/common-6ad6114229.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="476" lean-forward="false" selection-start-line="0" selection-start-column="473" selection-end-line="0" selection-end-column="476" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/auditing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+        <state relative-caret-position="340">
+          <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/auditingconfirm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="92" column="52" lean-forward="false" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="64" column="68" lean-forward="false" selection-start-line="64" selection-start-column="68" selection-end-line="64" selection-end-column="68" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/income.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="136" column="52" lean-forward="false" selection-start-line="136" selection-start-column="52" selection-end-line="136" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/auditing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="71" column="17" lean-forward="false" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/auditingconfirm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="58" column="17" lean-forward="false" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/income.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="86" column="17" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/tixian.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/tixianrecord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/tixianrecord.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="77" column="52" lean-forward="false" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="343">
+          <caret line="92" column="64" lean-forward="false" selection-start-line="92" selection-start-column="64" selection-end-line="92" selection-end-column="64" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/incomeshop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="75" column="12" lean-forward="false" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+        <state relative-caret-position="335">
+          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="64" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/indexshop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="78" column="38" lean-forward="false" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/incomeshop.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/ruler.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="105" column="34" lean-forward="false" selection-start-line="105" selection-start-column="34" selection-end-line="105" selection-end-column="34" />
+        <state relative-caret-position="648">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/tixian.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="49" column="52" lean-forward="false" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
+        <state relative-caret-position="328">
+          <caret line="39" column="64" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/tixianrecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="29" column="68" lean-forward="false" selection-start-line="29" selection-start-column="68" selection-end-line="29" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/auditing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="71" column="2" lean-forward="false" selection-start-line="71" selection-start-column="2" selection-end-line="77" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/auditingconfirm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="64" column="4" lean-forward="false" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/income.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="92" column="4" lean-forward="false" selection-start-line="92" selection-start-column="4" selection-end-line="92" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/incomeshop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="110" column="4" lean-forward="false" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="2" lean-forward="false" selection-start-line="26" selection-start-column="2" selection-end-line="32" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -889,37 +916,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/index.js">
+    <entry file="file://$PROJECT_DIR$/src/js/tixian.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state relative-caret-position="198">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/common/css/common-6ad6114229.css">
+    <entry file="file://$PROJECT_DIR$/src/js/tixianrecord.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="476" lean-forward="false" selection-start-line="0" selection-start-column="473" selection-end-line="0" selection-end-column="476" />
+        <state relative-caret-position="264">
+          <caret line="84" column="4" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/indexshop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="78" column="38" lean-forward="false" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="85" column="113" lean-forward="false" selection-start-line="85" selection-start-column="113" selection-end-line="85" selection-end-column="113" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
