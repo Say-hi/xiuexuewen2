@@ -131,9 +131,11 @@
             <span class="f28 c999">{{$value.status == 1 ? '已结算' : '未结算'}}</span>
             <span>{{$value.status == 1 ? $value.finish_time : $value.create_time}}</span>
         </div>
-        <div class="center-flex f28 c999">
-            <span>创建日期:{{$value.create_time}}</span>
-            <span>完成日期:{{$value.finish_time}}</span>
+        <div class="center-flex f28 c999 mt10">
+            <span>获得时间:{{$value.create_time}}</span>
+        </div>
+        <div class="center-flex f28 c999 mt10">
+            <span>结算时间:{{$value.finish_time}}</span>
         </div>
     </div>
     {{/each}}
