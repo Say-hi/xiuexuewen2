@@ -127,15 +127,19 @@
             <p class="need-left lh88">{{$value.direct_text}}</p>
             <p>+{{$value.amount}}</p>
         </div>
-        <div class="center-flex f28 c999  ">
+        <div class="center-flex f28 c999">
             <span class="f28 c999">{{$value.status == 1 ? '已结算' : '未结算'}}</span>
             <span>{{$value.status == 1 ? $value.finish_time : $value.create_time}}</span>
+        </div>
+        <div class="center-flex f28 c999">
+            <span>创建日期:{{$value.create_time}}</span>
+            <span>完成日期:{{$value.finish_time}}</span>
         </div>
     </div>
     {{/each}}
 </script>
 <script src="../common/js/vconsole-260e0d0e3c.min.js"></script>
-<script src="../js/income-a34886d3aa.js"></script>
+<script src="../js/income-322bc6ac56.js"></script>
 <!--<script>-->
 <!---->
 <!--</script>-->
