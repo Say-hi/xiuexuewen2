@@ -65,6 +65,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="incomeshop.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/incomeshop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ruler.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/ruler.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,7 +124,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="404.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/404.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
@@ -138,7 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>need-left</find>
       <find>cancel</find>
       <find>agents</find>
       <find>semc-btn</find>
@@ -168,6 +177,7 @@
       <find>bottom-btn2</find>
       <find>cancel-mask2</find>
       <find>vconsole</find>
+      <find>str</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,7 +220,6 @@
         <option value="$PROJECT_DIR$/src/js/auditing.js" />
         <option value="$PROJECT_DIR$/src/js/auditingconfirm.js" />
         <option value="$PROJECT_DIR$/src/js/income.js" />
-        <option value="$PROJECT_DIR$/src/js/incomeshop.js" />
         <option value="$PROJECT_DIR$/src/js/indexshop.js" />
         <option value="$PROJECT_DIR$/src/js/tixian.js" />
         <option value="$PROJECT_DIR$/src/js/tixianrecord.js" />
@@ -227,6 +236,7 @@
         <option value="$PROJECT_DIR$/src/js/index.js" />
         <option value="$PROJECT_DIR$/src/common/js/vconsole.min.js" />
         <option value="$PROJECT_DIR$/src/pages/404.html" />
+        <option value="$PROJECT_DIR$/src/js/incomeshop.js" />
       </list>
     </option>
   </component>
@@ -247,8 +257,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="564" />
-    <option name="y" value="18" />
+    <option name="x" value="415" />
+    <option name="y" value="101" />
     <option name="width" value="1277" />
     <option name="height" value="1047" />
   </component>
@@ -294,6 +304,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="绣学问-公众号3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,12 +447,12 @@
       <workItem from="1555985779388" duration="1693000" />
       <workItem from="1556086617707" duration="5383000" />
       <workItem from="1556184180605" duration="194000" />
-      <workItem from="1556184546562" duration="4597000" />
+      <workItem from="1556184546562" duration="4857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119995000" />
+    <option name="totallyTimeSpent" value="120255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,11 +464,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="564" y="18" width="1277" height="1047" extended-state="0" />
-    <editor active="false" />
+    <frame x="415" y="101" width="1277" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18240516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18240516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -634,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/incomeshop.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="119" column="4" lean-forward="false" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/indexshop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -825,6 +845,14 @@
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/incomeshop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
