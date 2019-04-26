@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/Mdate-4094e9edd6.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/common-b357ee0009.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/css/iconfont-be24dce2ca.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/Mdate-8e0a3a4ee8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/ftclick-b2b22cf87d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/iScroll-460da0df27.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/jq3-e7e274a875.3.1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/rem-97dae64c99.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/temp-563daa4282.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/js/vconsole-085e5a5b51.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/common/reset-fa7f67953c.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/auditing-c7467b7f3b.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/auditingconfirm-66b0657958.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/income-f2f3555756.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/incomeshop-e8c3bee69f.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/index-c861a8da2f.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/indexshop-ba8ae69cf5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/tixian-690f9fea3d.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/tixianrecord-12be497e09.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditing-259c940c7d.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/auditingconfirm-4c685275ac.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/income-0614a6d93e.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/incomeshop-24dd90e5e9.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/incomeshop-4c2b1fde25.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/index-40aee21963.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/indexshop-ad5ebd5b20.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/tixian-6743638f14.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/js/tixianrecord-e13f758660.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/auditing.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/auditingconfirm.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/income.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/incomeshop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/indexshop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/ruler.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/tixian.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/pages/tixianrecord.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="aa494410-71a7-4001-8e08-98bc7340b660" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -73,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="91" column="44" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="91" selection-end-column="44" />
+            <state relative-caret-position="117">
+              <caret line="91" column="44" lean-forward="false" selection-start-line="90" selection-start-column="4" selection-end-line="91" selection-end-column="44" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -86,7 +44,7 @@
       <file leaf-file-name="income.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/income.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
+            <state relative-caret-position="314">
               <caret line="117" column="44" lean-forward="false" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -100,7 +58,7 @@
       <file leaf-file-name="ruler.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/ruler.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="413">
               <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
               <folding />
             </state>
@@ -110,7 +68,7 @@
       <file leaf-file-name="incomeshop.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/incomeshop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
+            <state relative-caret-position="483">
               <caret line="45" column="44" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
               <folding />
             </state>
@@ -120,7 +78,7 @@
       <file leaf-file-name="tixian.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/tixian.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
+            <state relative-caret-position="322">
               <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
               <folding />
             </state>
@@ -130,7 +88,7 @@
       <file leaf-file-name="indexshop.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/indexshop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
+            <state relative-caret-position="-126">
               <caret line="83" column="44" lean-forward="false" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
               <folding />
             </state>
@@ -140,7 +98,7 @@
       <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/404.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
+            <state relative-caret-position="389">
               <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
               <folding>
                 <element signature="n#style#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -152,7 +110,7 @@
       <file leaf-file-name="auditing.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/auditing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
+            <state relative-caret-position="391">
               <caret line="45" column="44" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
               <folding />
             </state>
@@ -162,7 +120,7 @@
       <file leaf-file-name="auditingconfirm.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/auditingconfirm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
+            <state relative-caret-position="265">
               <caret line="87" column="48" lean-forward="false" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
               <folding>
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -292,7 +250,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="635" />
+    <option name="x" value="433" />
     <option name="y" value="27" />
     <option name="width" value="1277" />
     <option name="height" value="1047" />
@@ -465,12 +423,12 @@
       <workItem from="1556086617707" duration="5383000" />
       <workItem from="1556184180605" duration="194000" />
       <workItem from="1556184546562" duration="5454000" />
-      <workItem from="1556269870187" duration="208000" />
+      <workItem from="1556269870187" duration="586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121060000" />
+    <option name="totallyTimeSpent" value="121438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,8 +440,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="635" y="27" width="1277" height="1047" extended-state="0" />
-    <editor active="false" />
+    <frame x="433" y="27" width="1277" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18159807" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -492,7 +450,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20372398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20372398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -749,8 +707,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="91" column="44" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="91" selection-end-column="44" />
+        <state relative-caret-position="117">
+          <caret line="91" column="44" lean-forward="false" selection-start-line="90" selection-start-column="4" selection-end-line="91" selection-end-column="44" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#div#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -760,7 +718,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/404.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
+        <state relative-caret-position="389">
           <caret line="20" column="44" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding>
             <element signature="n#style#0;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -770,7 +728,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/auditing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="391">
           <caret line="45" column="44" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
           <folding />
         </state>
@@ -778,7 +736,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/auditingconfirm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
+        <state relative-caret-position="265">
           <caret line="87" column="48" lean-forward="false" selection-start-line="87" selection-start-column="48" selection-end-line="87" selection-end-column="48" />
           <folding>
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -789,7 +747,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/income.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="314">
           <caret line="117" column="44" lean-forward="false" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -801,7 +759,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/incomeshop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
+        <state relative-caret-position="483">
           <caret line="45" column="44" lean-forward="false" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
           <folding />
         </state>
@@ -809,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/indexshop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
+        <state relative-caret-position="-126">
           <caret line="83" column="44" lean-forward="false" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
           <folding />
         </state>
@@ -817,7 +775,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/ruler.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="413">
           <caret line="27" column="44" lean-forward="false" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding />
         </state>
@@ -825,7 +783,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/tixian.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
+        <state relative-caret-position="322">
           <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
           <folding />
         </state>
