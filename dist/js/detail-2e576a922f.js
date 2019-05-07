@@ -1,1 +1,0 @@
-"use strict";function getUrlParam(n){var r=new RegExp("(^|&)"+n+"=([^&]*)(&|$)"),t=window.location.search.substr(1).match(r);return null!=t?decodeURI(t[2]):null}$(function(){getUrlParam("id")});
