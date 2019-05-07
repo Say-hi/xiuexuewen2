@@ -131,9 +131,11 @@
 
 <script id="item" type="text/html">
     {{each target}}
+    <a href="./detail.html?id={{$value.out_trade_no}}&uid={{$value.uid}}&mid={{$value.mid}}">
     <div class="bgfff mb30 pb30 item p30">
         <div class="jilu c999 f28 bgfff">
-            <a href="./detail.html?id={{$value.out_trade_no}}&uid={{$value.uid}}&mid={{$value.mid}}"><span>订单号：<span class="">{{$value.out_trade_no}}</span></span></a>
+            <span>订单号：<span class="">{{$value.out_trade_no}}</span></span>
+
         </div>
         <div class=" f28 lh88 center-flex">
             <p class="need-left lh88">{{$value.direct_text}}</p>
@@ -152,6 +154,7 @@
             <span>{{$value.finish_time}}</span>
         </div>
     </div>
+    </a>
     {{/each}}
 </script>
 <script src="../common/js/vconsole-085e5a5b51.min.js"></script>
