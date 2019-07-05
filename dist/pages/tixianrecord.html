@@ -52,7 +52,7 @@
 <script id="item" type="text/html">
     {{each target}}
     {{if $value.status == 1 || $value.status == 2}}
-    <a href="./auditingconfirm.html?num={{$value.order_num}}&uid={{$value.uid}}&status={{ $value.status }}">
+    <a href="./auditingconfirm.html?num={{$value.order_num}}&uid={{$value.uid}}&status={{ $value. }}">
     {{/if }}
         <div class="bgfff mb30 pb30 item">
             <div class="jilu p30 c999 f28 bgfff">
@@ -63,7 +63,8 @@
                 <p class="fw7 {{$value.status != 2 ? 'c999' : 'c444'}}">¥{{$value.amount}}</p>
             </div>
             <div class="center-flex f28 c999 p030 ">
-                <span class="f28 c999">提现方式：{{$value.tid ? $value.tid == 1 ? '红包' : '零钱' : '红包'}}</span>
+                <span class="f28 c999" style='display: none;'>提现方式：{{$value.tid ? $value.tid == 1 ? '红包' : '零钱' : '红包'}}</span>
+                <span class="f28 c999">提现方式：零钱</span>
                 {{if !type}}
                 <span >{{$value.create_time}}</span>
                 {{/if}}
