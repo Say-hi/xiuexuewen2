@@ -51,8 +51,8 @@
 <script src="../common/js/temp-563daa4282.js"></script>
 <script id="item" type="text/html">
     {{each target}}
-    {{if $value.status == 1}}
-    <a href="./auditingconfirm.html?num={{$value.order_num}}&uid={{$value.uid}}">
+    {{if $value.status == 1 || $value.status == 2}}
+    <a href="./auditingconfirm.html?num={{$value.order_num}}&uid={{$value.uid}}&status={{ $value.status }}">
     {{/if }}
         <div class="bgfff mb30 pb30 item">
             <div class="jilu p30 c999 f28 bgfff">
